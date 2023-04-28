@@ -2,6 +2,16 @@
 "aa" = (
 /turf/open/space,
 /area/space)
+"ad" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"ag" = (
+/turf/open/space,
+/area/almayer/command/securestorage)
 "ar" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -11,6 +21,10 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"aD" = (
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "aJ" = (
 /obj/structure/machinery/door_control{
 	id = "areslockdownexterior";
@@ -23,6 +37,14 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/airoom)
+"aP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/warden,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "bV" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -59,6 +81,9 @@
 	icon_state = "tcomms"
 	},
 /area/almayer/command/airoom)
+"cG" = (
+/turf/open/space/basic,
+/area/almayer/medical/medical_science)
 "cQ" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
@@ -102,6 +127,12 @@
 	icon_state = "orange"
 	},
 /area/almayer/command/cic)
+"dm" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "dn" = (
 /turf/open/floor/plating/airless,
 /area/space)
@@ -114,6 +145,15 @@
 	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
+"dP" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
+"ea" = (
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/cryo_cells)
 "em" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	name = "ship-grade camera";
@@ -154,12 +194,52 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"eK" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	layer = 3.2
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "eO" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/numbertwobunks)
+"eY" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
+"eZ" = (
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	layer = 3.2
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "fl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -187,6 +267,24 @@
 	icon_state = "cargo"
 	},
 /area/almayer/command/airoom)
+"fV" = (
+/obj/structure/machinery/cryopod{
+	dir = 1
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
+"ga" = (
+/obj/structure/machinery/cryopod,
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "gl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
@@ -214,6 +312,19 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"gx" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
+"gA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/bridge,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "gD" = (
 /obj/structure/machinery/door/window/southleft{
 	req_access_txt = "19";
@@ -224,6 +335,12 @@
 	icon_state = "cargo_arrow"
 	},
 /area/almayer/command/airoom)
+"gU" = (
+/turf/open/space/basic,
+/area/almayer/medical/testlab)
+"ht" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/cryo_cells)
 "hA" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/corporateliason)
@@ -275,6 +392,12 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"jh" = (
+/turf/open/space,
+/area/almayer/medical/testlab)
+"ji" = (
+/turf/open/space,
+/area/almayer/medical/containment/cell)
 "jr" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -300,6 +423,21 @@
 	dir = 9
 	},
 /area/almayer/command/cic)
+"jG" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "bluecorner"
+	},
+/area/almayer/command/cichallway)
+"jN" = (
+/obj/structure/machinery/cryopod,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "jR" = (
 /obj/structure/closet/cabinet,
 /obj/item/storage/lockbox/loyalty,
@@ -364,6 +502,12 @@
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
 /area/almayer/living/commandbunks)
+"kr" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced{
+	name = "\improper Cryogenics Bay"
+	},
+/turf/open/space/basic,
+/area/almayer/living/port_emb)
 "kJ" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/command/airoom)
@@ -389,12 +533,22 @@
 	icon_state = "tcomms"
 	},
 /area/almayer/command/airoom)
+"ll" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "lE" = (
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "red"
 	},
 /area/almayer/command/cic)
+"lO" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
 "lZ" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -414,6 +568,24 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"mf" = (
+/obj/structure/machinery/cryopod{
+	dir = 1
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
+"mg" = (
+/turf/open/space/basic,
+/area/almayer/medical/containment/cell)
+"mj" = (
+/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "ms" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21";
@@ -462,12 +634,24 @@
 /obj/structure/machinery/cm_vending/gear/commanding_officer,
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"nk" = (
+/obj/structure/machinery/camera/autoname/almayer{
+	dir = 1;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer{
+	icon_state = "green"
+	},
+/area/almayer/living/port_emb)
 "nv" = (
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
+"nx" = (
+/turf/open/space,
+/area/almayer/command/computerlab)
 "nN" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -522,6 +706,24 @@
 "pl" = (
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"pF" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/almayer/living/cryo_cells)
+"pG" = (
+/turf/open/floor/almayer,
+/area/almayer/hull/upper_hull/u_f_s)
+"pI" = (
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "pL" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -564,6 +766,9 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"qt" = (
+/turf/open/space/basic,
+/area/almayer/living/captain_mess)
 "qv" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -595,6 +800,15 @@
 	},
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"qZ" = (
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
+"rf" = (
+/turf/open/space,
+/area/almayer/shipboard/brig/lobby)
 "rG" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
@@ -611,6 +825,9 @@
 /obj/item/storage/fancy/cigar,
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
+"sN" = (
+/turf/open/space/basic,
+/area/almayer/shipboard/brig/lobby)
 "sR" = (
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
@@ -633,6 +850,18 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"tg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/landmark/start/researcher,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "ti" = (
 /turf/open/floor/almayer{
 	icon_state = "sterile"
@@ -666,6 +895,13 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"tY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/warrant,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "um" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -682,6 +918,12 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"uJ" = (
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
 "uN" = (
 /obj/structure/stairs{
 	dir = 1
@@ -717,6 +959,13 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/cic)
+"vh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/reporter,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "vq" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -754,6 +1003,15 @@
 	icon_state = "plate"
 	},
 /area/almayer/command/combat_correspondent)
+"vV" = (
+/turf/open/space/basic,
+/area/almayer/command/securestorage)
+"wa" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "green"
+	},
+/area/almayer/living/port_emb)
 "wy" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -806,6 +1064,9 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"xC" = (
+/turf/open/space/basic,
+/area/almayer/living/port_emb)
 "xR" = (
 /obj/structure/machinery/status_display{
 	pixel_x = 32
@@ -885,6 +1146,9 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"Ap" = (
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "AJ" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -894,6 +1158,13 @@
 /area/almayer/living/numbertwobunks)
 "AL" = (
 /area/space)
+"AX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/intel,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "Bb" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 8
@@ -930,6 +1201,15 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"CH" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
+"CJ" = (
+/turf/open/gm/dirt2,
+/area/almayer/living/grunt_rnr)
 "CM" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -956,6 +1236,22 @@
 "CO" = (
 /turf/open/floor/wood/ship,
 /area/almayer/command/corporateliason)
+"CV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/researcher,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"Dc" = (
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
+"Dg" = (
+/turf/open/space/basic,
+/area/almayer/hull/upper_hull/u_f_p)
 "Dm" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/command/cic)
@@ -973,6 +1269,9 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"DT" = (
+/turf/open/space,
+/area/almayer/medical/medical_science)
 "DV" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/space/basic,
@@ -1002,12 +1301,44 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/combat_correspondent)
+"Eq" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/almayer/living/cryo_cells)
+"Et" = (
+/obj/structure/machinery/cryopod,
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "Eu" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
 "EJ" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"EO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/police,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"EU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/bridge,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "Fd" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -1043,6 +1374,24 @@
 	},
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
+"Ft" = (
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_p)
+"FA" = (
+/obj/structure/machinery/cryopod{
+	dir = 1
+	},
+/obj/structure/machinery/camera/autoname/almayer{
+	dir = 1;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "FY" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/prop/almayer/CICmap,
@@ -1051,6 +1400,15 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Gc" = (
+/obj/structure/machinery/cryopod{
+	dir = 1
+	},
+/obj/structure/machinery/camera/autoname/almayer,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "Gq" = (
 /turf/open/floor/almayer{
 	dir = 10;
@@ -1064,6 +1422,29 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"Gy" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "bluecorner"
+	},
+/area/almayer/hull/upper_hull/u_f_p)
+"GF" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/almayer/living/cryo_cells)
+"GZ" = (
+/obj/structure/machinery/cryopod{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "Hd" = (
 /obj/structure/sign/safety/terminal{
 	pixel_x = -17;
@@ -1077,6 +1458,24 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"Hn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/landmark/start/executive,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"Hr" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "bluecorner"
+	},
+/area/almayer/hull/upper_hull/u_f_p)
 "Hu" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -1167,6 +1566,16 @@
 "IV" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/commandbunks)
+"Jl" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/structure/machinery/camera/autoname/almayer{
+	dir = 8;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "Ju" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -1204,9 +1613,7 @@
 	pixel_y = -20;
 	req_access_txt = "200"
 	},
-/turf/open/floor/almayer{
-	icon_state = "blue"
-	},
+/turf/open/floor/almayer,
 /area/almayer/command/cichallway)
 "Kv" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -1215,6 +1622,12 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"KQ" = (
+/obj/effect/step_trigger/message/memorial,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/living/grunt_rnr)
 "KX" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -1251,12 +1664,27 @@
 /obj/effect/landmark/start/captain,
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Lo" = (
+/turf/open/floor/almayer{
+	icon_state = "bluecorner"
+	},
+/area/almayer/command/cichallway)
 "Lv" = (
 /obj/structure/machinery/status_display{
 	pixel_y = 30
 	},
 /turf/closed/wall/almayer/outer,
 /area/almayer/command/cic)
+"Lz" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/item/storage/donut_box{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "LP" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/combat_correspondent)
@@ -1365,12 +1793,52 @@
 	},
 /turf/open/space,
 /area/almayer/command/cic)
+"OV" = (
+/obj/effect/landmark/start/researcher,
+/obj/effect/landmark/start/professor,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"OX" = (
+/obj/structure/flora/bush/ausbushes/grassybush,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
+"Pd" = (
+/obj/structure/flora/bush/ausbushes/var3/ywflowers,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "Pj" = (
 /turf/open/floor/almayer{
 	dir = 9;
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Py" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_p)
+"PH" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 13
+	},
+/obj/item/bedsheet/blue{
+	layer = 3.2
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/port_emb)
 "PM" = (
 /obj/structure/machinery/door/airlock/almayer/generic/corporate,
 /obj/structure/machinery/status_display{
@@ -1456,6 +1924,9 @@
 	dir = 5
 	},
 /area/almayer/command/cic)
+"Rc" = (
+/turf/open/space,
+/area/almayer/command/telecomms)
 "Rn" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -1470,6 +1941,22 @@
 	icon_state = "orange"
 	},
 /area/almayer/command/cic)
+"Rs" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/landmark/start/intel,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
+"RK" = (
+/turf/open/floor/almayer{
+	icon_state = "green"
+	},
+/area/almayer/living/port_emb)
 "RW" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/clothing/mask/cigarette/pipe{
@@ -1483,6 +1970,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
+"SC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/start/police,
+/turf/open/floor/almayer,
+/area/almayer/living/cryo_cells)
 "SJ" = (
 /obj/structure/machinery/door_control{
 	id = "areslockdownexterior";
@@ -1557,6 +2051,9 @@
 	},
 /turf/open/floor/carpet,
 /area/almayer/command/corporateliason)
+"TQ" = (
+/turf/open/floor/almayer,
+/area/almayer/hull/upper_hull/u_f_p)
 "TS" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -1571,6 +2068,12 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"Ue" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "Uh" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -1612,6 +2115,9 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Ur" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/medical/containment/cell)
 "Us" = (
 /obj/effect/landmark/start/synthetic,
 /turf/open/floor/plating/plating_catwalk,
@@ -1662,6 +2168,10 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Vb" = (
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
 "Ve" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
 	name = "\improper Commanding Officer's Quarters";
@@ -1676,6 +2186,27 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"VC" = (
+/obj/structure/prop/almayer/ship_memorial,
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
+"VI" = (
+/turf/open/floor/almayer{
+	icon_state = "bluecorner"
+	},
+/area/almayer/hull/upper_hull/u_f_s)
+"VN" = (
+/turf/open/space/basic,
+/area/almayer/hull/upper_hull/u_f_s)
+"VZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo_arrow"
+	},
+/area/almayer/living/cryo_cells)
 "Wa" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -1745,14 +2276,21 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
-"XY" = (
+"XU" = (
 /turf/open/floor/almayer{
+	dir = 5;
 	icon_state = "blue"
 	},
+/area/almayer/hull/upper_hull/u_f_p)
+"XY" = (
+/turf/open/floor/almayer,
 /area/almayer/command/cichallway)
 "Yi" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/numbertwobunks)
+"Yn" = (
+/turf/open/space/basic,
+/area/almayer/command/telecomms)
 "Yy" = (
 /obj/structure/machinery/vending/cigarette,
 /obj/structure/machinery/firealarm{
@@ -1819,6 +2357,18 @@
 "YX" = (
 /turf/open/floor/almayer/uscm/directional,
 /area/almayer/command/cic)
+"YY" = (
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/port_emb)
+"YZ" = (
+/turf/open/floor/grass,
+/area/almayer/living/grunt_rnr)
+"Zj" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/cryo_cells)
 "Zn" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -1875,6 +2425,15 @@
 	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
+"ZS" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/almayer/living/cryo_cells)
+"ZZ" = (
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/hull/upper_hull/u_f_p)
 
 (1,1,1) = {"
 Uy
@@ -6410,7 +6969,7 @@ Xw
 tD
 tD
 kJ
-Qk
+kJ
 oE
 SR
 Ln
@@ -6799,7 +7358,7 @@ yJ
 Dx
 zZ
 Yi
-cW
+jG
 Kh
 hA
 hA
@@ -7044,7 +7603,7 @@ vI
 vI
 vI
 um
-XY
+Lo
 qE
 ms
 sc
@@ -7150,6 +7709,8 @@ YE
 YE
 YE
 YE
+jG
+Lo
 YE
 YE
 YE
@@ -7157,10 +7718,8 @@ YE
 YE
 YE
 YE
-YE
-YE
-YE
-YE
+jG
+Lo
 YE
 YE
 YE
@@ -7272,17 +7831,17 @@ IQ
 IQ
 IQ
 IQ
-Uy
-Uy
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-Uy
-Uy
+lO
+Dc
+ea
+ea
+ZS
+ZS
+ZS
+ea
+ea
+Py
+ZZ
 IQ
 IQ
 IQ
@@ -7384,37 +7943,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Rc
+Rc
+Rc
+Yn
+vV
+vV
+vV
+vV
+vV
 IQ
-Uy
-Uy
+lO
+Dc
+ea
+Zj
+Hn
+ht
+ad
+Zj
+ea
+Py
+ZZ
 IQ
-Uy
-Uy
-aa
-aa
-Uy
-IQ
-Uy
-Uy
-IQ
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -7506,37 +8065,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Rc
+Rc
+Rc
+Rc
+ag
+ag
+ag
+ag
+ag
+IQ
+lO
+Dc
+ZS
+ht
+VZ
+pI
+Eq
+ht
+ZS
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -7628,37 +8187,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Rc
+Rc
+Rc
+Rc
+ag
+ag
+ag
+ag
+ag
+IQ
+lO
+Dc
+ea
+GZ
+EU
+ht
+gA
+GZ
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -7750,37 +8309,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Rc
+Rc
+Rc
+Rc
+ag
+ag
+ag
+ag
+ag
+IQ
+lO
+Dc
+ea
+jN
+EU
+ht
+gA
+Et
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -7872,37 +8431,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Rc
+Rc
+Rc
+Rc
+ag
+ag
+ag
+ag
+ag
+IQ
+lO
+Dc
+ZS
+ht
+VZ
+pI
+pF
+ht
+ZS
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -7994,37 +8553,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Rc
+Rc
+Rc
+Rc
+ag
+ag
+ag
+ag
+ag
+IQ
+lO
+Dc
+ea
+Gc
+aP
+ht
+tY
+FA
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8116,37 +8675,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ea
+ga
+EO
+ht
+SC
+Zj
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8238,37 +8797,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ZS
+ht
+VZ
+pI
+GF
+ht
+ZS
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8360,37 +8919,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ea
+mf
+OV
+ht
+vh
+fV
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8482,37 +9041,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ea
+Zj
+CV
+ht
+AX
+Zj
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8604,37 +9163,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ZS
+ht
+VZ
+pI
+GF
+ht
+ZS
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8726,37 +9285,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ea
+GZ
+tg
+ht
+Rs
+GZ
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8848,37 +9407,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+nx
+IQ
+lO
+Dc
+ea
+ea
+pI
+ea
+pI
+ea
+ea
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -8970,37 +9529,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+jh
+jh
+jh
+jh
+DT
+DT
+DT
+DT
+DT
+IQ
+lO
+Dc
+YY
+eZ
+wa
+Ap
+RK
+eK
+YY
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -9092,37 +9651,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+jh
+jh
+jh
+jh
+DT
+DT
+DT
+DT
+DT
+IQ
+lO
+Dc
+YY
+PH
+Ap
+Ap
+Ap
+eZ
+YY
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -9214,37 +9773,37 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gU
+gU
+gU
+gU
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+YY
+YY
+wa
+Ap
+nk
+YY
+YY
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -9336,37 +9895,37 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gU
+gU
+gU
+gU
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+YY
+dP
+Ap
+Ap
+Ap
+Ap
+YY
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -9458,37 +10017,37 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gU
+gU
+gU
+gU
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+kr
+Ap
+ll
+dm
+gx
+Ap
+kr
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -9580,37 +10139,37 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gU
+gU
+gU
+gU
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+xC
+Ap
+ll
+Lz
+gx
+Ap
+xC
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -9702,37 +10261,37 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+mg
+mg
+mg
+cG
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+YY
+Ap
+ll
+dm
+gx
+Ap
+YY
+Py
+ZZ
+IQ
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -9824,37 +10383,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ji
+ji
+ji
+DT
+DT
+DT
+DT
+DT
+DT
+IQ
+lO
+Dc
+YY
+YY
+YY
+YY
+YY
+YY
+YY
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -9946,37 +10505,37 @@ aa
 LU
 tD
 Eu
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ji
+ji
+ji
+DT
+DT
+DT
+DT
+DT
+DT
+IQ
+lO
+Dc
+OX
+aD
+KQ
+VC
+KQ
+Vb
+OX
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 Eu
 tD
 oJ
@@ -10068,37 +10627,37 @@ aa
 Vr
 tD
 Eu
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Uy
+mg
+ji
+ji
+DT
+DT
+DT
+DT
+DT
+DT
+IQ
+lO
+Dc
+OX
+YZ
+KQ
+YZ
+KQ
+mj
+OX
+Py
+ZZ
+IQ
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+sN
 Eu
 tD
 KY
@@ -10190,36 +10749,36 @@ aa
 aa
 LU
 tD
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-aa
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Ur
+mg
+mg
+cG
+cG
+cG
+cG
+cG
+DT
+IQ
+lO
+eY
+qZ
+Vb
+KQ
+KQ
+KQ
+CJ
+Ft
+Hr
+ZZ
+IQ
+rf
+sN
+sN
+sN
+sN
+sN
+sN
+sN
 Eu
 tD
 oJ
@@ -10315,26 +10874,26 @@ IL
 IL
 Eu
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+cG
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+pG
+Dc
+CJ
+CJ
+CJ
+CJ
+CJ
+Py
+TQ
+ZZ
+IQ
+sN
 Eu
 Eu
 Eu
@@ -10438,24 +10997,24 @@ aa
 Vr
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+VI
+uJ
+CJ
+Pd
+Vb
+CJ
+YZ
+XU
+Gy
+ZZ
+IQ
 Eu
 tD
 IL
@@ -10560,23 +11119,23 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+cG
+cG
+cG
+cG
+cG
+IQ
+lO
+Dc
+OX
+YZ
+CH
+CH
+CH
+YZ
+OX
+Py
+ZZ
 Eu
 tD
 KY
@@ -10687,18 +11246,18 @@ Eu
 Eu
 Eu
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+IQ
+lO
+Dc
+OX
+Ue
+CH
+Jl
+CH
+aD
+OX
+Py
+ZZ
 Eu
 oJ
 aa
@@ -10810,17 +11369,17 @@ IL
 IL
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+IQ
+IQ
+IQ
+IQ
+IQ
+IQ
+IQ
+Py
+ZZ
 Eu
 oJ
 aa
@@ -10932,17 +11491,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -11054,17 +11613,17 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 Uy
@@ -11176,17 +11735,17 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 Uy
@@ -11298,17 +11857,17 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 Uy
@@ -11420,17 +11979,17 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 Uy
@@ -11542,17 +12101,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -11664,17 +12223,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -11786,17 +12345,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -11908,17 +12467,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -12030,17 +12589,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+VN
+IQ
+qt
+qt
+qt
+IQ
+Dg
+Py
+ZZ
 Eu
 oJ
 aa
@@ -12152,17 +12711,17 @@ aa
 aa
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+lO
+Dc
+IQ
+IQ
+IQ
+IQ
+IQ
+IQ
+IQ
+Py
+ZZ
 Eu
 oJ
 aa
@@ -12276,13 +12835,13 @@ tD
 Eu
 Uy
 Uy
+IQ
 Uy
 Uy
+IQ
 Uy
 Uy
-Uy
-Uy
-Uy
+IQ
 Uy
 Uy
 Eu
@@ -12398,13 +12957,13 @@ Eu
 Uy
 Uy
 Uy
+IQ
 Uy
 Uy
+IQ
 Uy
 Uy
-Uy
-Uy
-Uy
+IQ
 Uy
 Uy
 Uy
