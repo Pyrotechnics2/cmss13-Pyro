@@ -231,6 +231,10 @@
 	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
+"kn" = (
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/plating,
+/area/almayer/living/commandbunks)
 "kN" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -420,6 +424,13 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"qN" = (
+/obj/structure/machinery/cm_vending/clothing/dress{
+	req_access = list(1);
+	pixel_y = -2
+	},
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/commandbunks)
 "rG" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
@@ -910,7 +921,9 @@
 	},
 /area/space)
 "Mc" = (
-/obj/structure/machinery/cm_vending/clothing/senior_officer,
+/obj/structure/machinery/cm_vending/clothing/senior_officer{
+	pixel_y = 2
+	},
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/numbertwobunks)
 "MV" = (
@@ -1027,6 +1040,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
+"SK" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "SR" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -4028,7 +4048,7 @@ wy
 KX
 uN
 cT
-pl
+SK
 CE
 Ta
 Dq
@@ -5603,8 +5623,8 @@ Xw
 tD
 tD
 IV
-DV
-IV
+kn
+kn
 IV
 DV
 DV
@@ -5622,7 +5642,7 @@ rG
 za
 za
 yK
-za
+yK
 za
 Eu
 Eu
@@ -6090,7 +6110,7 @@ Eu
 aa
 aa
 aa
-EJ
+qN
 mE
 ti
 zt
