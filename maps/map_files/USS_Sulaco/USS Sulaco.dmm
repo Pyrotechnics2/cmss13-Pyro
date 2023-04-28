@@ -61,7 +61,7 @@
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/command/cic)
 "di" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -322,7 +322,7 @@
 	dir = 4
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/almayer/command/cic)
 "nV" = (
 /turf/open/floor/almayer{
 	icon_state = "silvercorner"
@@ -376,7 +376,7 @@
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/command/cic)
 "pO" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21";
@@ -420,12 +420,6 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
-"qU" = (
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "blue"
-	},
-/area/space)
 "rG" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
@@ -439,6 +433,12 @@
 /obj/item/storage/fancy/cigar,
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
+"sR" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/numbertwobunks)
 "tf" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -522,7 +522,7 @@
 	dir = 8;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/almayer/command/cic)
 "vq" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -737,7 +737,7 @@
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/command/cic)
 "Fr" = (
 /obj/item/device/radio/intercom{
 	freerange = 1;
@@ -909,6 +909,13 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"MV" = (
+/obj/structure/machinery/power/apc/almayer,
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
 "NQ" = (
 /obj/structure/barricade/handrail/strata,
 /turf/open/floor/almayer{
@@ -916,9 +923,6 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
-"Od" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/space)
 "Ov" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -928,18 +932,13 @@
 	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/space,
-/area/space)
+/area/almayer/command/cic)
 "Pj" = (
 /turf/open/floor/almayer{
 	dir = 9;
 	icon_state = "blue"
 	},
-/area/space)
-"PT" = (
-/turf/open/floor/almayer{
-	icon_state = "blue"
-	},
-/area/space)
+/area/almayer/command/cic)
 "Qf" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -988,7 +987,7 @@
 	dir = 10;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/command/cic)
 "QT" = (
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
@@ -1148,7 +1147,7 @@
 	dir = 1;
 	icon_state = "bluecorner"
 	},
-/area/space)
+/area/almayer/command/cic)
 "Wb" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -1263,9 +1262,6 @@
 "YX" = (
 /turf/open/floor/almayer/uscm/directional,
 /area/almayer/command/cic)
-"Ze" = (
-/turf/open/floor/almayer,
-/area/space)
 "Zn" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -4275,7 +4271,7 @@ Dm
 oG
 Dm
 pl
-iA
+MV
 oz
 oJ
 LU
@@ -5610,15 +5606,15 @@ DV
 DV
 DV
 IV
-IQ
+rG
 cV
-PT
-Ze
-Ze
-Ze
-qU
+Dq
+pl
+pl
+pl
+KX
 Fh
-IQ
+rG
 za
 za
 yK
@@ -5733,13 +5729,13 @@ tf
 pO
 EJ
 Pj
-Ze
+pl
 Pj
-Ze
-Ze
-Ze
+pl
+pl
+pl
 QA
-Ze
+pl
 QA
 Yi
 Hu
@@ -5854,17 +5850,17 @@ vF
 vF
 vF
 uS
-Ze
-PT
-Ze
-Ze
-Ze
-Ze
-Ze
-qU
-Ze
+pl
+Dq
+pl
+pl
+pl
+pl
+pl
+KX
+pl
 HS
-cQ
+sR
 Sn
 cQ
 Yi
@@ -5977,13 +5973,13 @@ QT
 wW
 EJ
 pL
-PT
-Od
-Ze
-Ze
-Ze
-Od
-qU
+Dq
+Dm
+pl
+pl
+pl
+Dm
+KX
 Fh
 Yi
 Yi
@@ -6098,15 +6094,15 @@ vF
 Iq
 ss
 xh
-qU
-PT
-Od
-Ze
-Ze
-Ze
-Od
-qU
-PT
+KX
+Dq
+Dm
+pl
+pl
+pl
+Dm
+KX
+Dq
 AJ
 eI
 ar
@@ -6220,15 +6216,15 @@ jV
 xR
 mR
 xh
-qU
-PT
+KX
+Dq
 nN
-Ze
-Ze
-Ze
+pl
+pl
+pl
 nN
-qU
-PT
+KX
+Dq
 AJ
 yJ
 Dx
@@ -6344,11 +6340,11 @@ EJ
 EJ
 Wa
 uX
-IQ
+rG
 Ov
 Ov
 Ov
-IQ
+rG
 Wa
 uX
 Yi
