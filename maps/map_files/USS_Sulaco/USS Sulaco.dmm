@@ -6,7 +6,10 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
 /area/almayer/living/numbertwobunks)
 "bV" = (
 /obj/structure/surface/table/reinforced/almayer_B{
@@ -22,7 +25,11 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
-/turf/open/floor/almayer,
+/obj/structure/machinery/faxmachine/uscm/command,
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "silver"
+	},
 /area/almayer/command/cic)
 "cw" = (
 /obj/structure/bed/chair/office/dark{
@@ -30,18 +37,25 @@
 	layer = 3.25
 	},
 /turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "blue"
+	dir = 8;
+	icon_state = "orange"
 	},
 /area/almayer/command/cic)
 "cQ" = (
-/turf/open/floor/almayer{
-	icon_state = "blue"
-	},
+/turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
+"cT" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
 "cV" = (
 /obj/structure/machinery/firealarm{
 	pixel_y = 28
+	},
+/obj/structure/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/almayer{
 	dir = 1;
@@ -52,9 +66,42 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 8;
+	layer = 3.2
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/almayer{
-	dir = 9;
-	icon_state = "blue"
+	dir = 4;
+	icon_state = "orange"
+	},
+/area/almayer/command/cic)
+"dz" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silvercorner"
+	},
+/area/almayer/command/cic)
+"ep" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/structure/transmitter/rotary{
+	name = "Alpha Overwatch Telephone";
+	phone_category = "Command";
+	phone_id = "Alpha Overwatch"
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "red"
 	},
 /area/almayer/command/cic)
 "eI" = (
@@ -85,18 +132,13 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
-"fC" = (
-/obj/structure/machinery/status_display{
-	pixel_y = 30
-	},
-/turf/closed/wall/almayer/reinforced,
-/area/almayer/command/cic)
 "gl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
 	layer = 3.25
 	},
 /turf/open/floor/almayer{
+	dir = 4;
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
@@ -104,18 +146,40 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
-/turf/open/floor/almayer,
+/obj/structure/transmitter/rotary{
+	name = "Charlie Overwatch Telephone";
+	phone_category = "Command";
+	phone_id = "Charlie Overwatch"
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
 /area/almayer/command/cic)
 "ig" = (
 /obj/structure/machinery/vending/snack,
 /turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "blue"
+	dir = 9;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
+"iA" = (
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "iF" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
+	},
+/obj/structure/machinery/computer/squad_changer{
+	dir = 8;
+	layer = 2.99;
+	pixel_y = 8
 	},
 /turf/open/floor/almayer{
 	dir = 4;
@@ -126,7 +190,19 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 4;
+	layer = 3.2
+	},
 /turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"js" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/almayer{
+	dir = 1;
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
@@ -145,9 +221,32 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 8;
+	layer = 3.2
+	},
+/obj/structure/machinery/light,
 /turf/open/floor/almayer{
-	dir = 10;
-	icon_state = "blue"
+	dir = 4;
+	icon_state = "emerald"
+	},
+/area/almayer/command/cic)
+"kN" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
+"kS" = (
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
+"lE" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "red"
 	},
 /area/almayer/command/cic)
 "lZ" = (
@@ -162,6 +261,13 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"md" = (
+/obj/structure/machinery/disposal,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "mE" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -170,6 +276,16 @@
 	icon_state = "sterile"
 	},
 /area/almayer/living/commandbunks)
+"mH" = (
+/obj/structure/closet/secure_closet/cmdcabinet{
+	pixel_y = 24
+	},
+/obj/item/device/cotablet,
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
 "mR" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -195,18 +311,21 @@
 "nv" = (
 /turf/open/floor/almayer{
 	dir = 4;
-	icon_state = "bluecorner"
+	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
 "nN" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
 	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/almayer,
 /area/space)
 "nV" = (
 /turf/open/floor/almayer{
-	icon_state = "bluecorner"
+	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
 "ob" = (
@@ -235,6 +354,12 @@
 /obj/structure/machinery/cm_vending/clothing/commanding_officer,
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"oG" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "oJ" = (
 /turf/open/floor/almayer_hull{
 	icon_state = "outerhull_dir"
@@ -243,6 +368,15 @@
 "pl" = (
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"pL" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
 "pO" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21";
@@ -329,9 +463,13 @@
 /turf/open/floor/almayer_hull,
 /area/space)
 "tI" = (
+/obj/structure/machinery/disposal,
+/obj/structure/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/almayer{
 	dir = 9;
-	icon_state = "blue"
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "tT" = (
@@ -375,6 +513,11 @@
 	name = "\improper Combat Information Center"
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "CIC Lockdown";
+	name = "\improper Combat Information Center Blast Door"
+	},
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "bluecorner"
@@ -399,8 +542,8 @@
 	layer = 3.25
 	},
 /turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "blue"
+	dir = 4;
+	icon_state = "red"
 	},
 /area/almayer/command/cic)
 "wW" = (
@@ -413,6 +556,15 @@
 	},
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
+"xb" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silvercorner"
+	},
+/area/almayer/command/cic)
 "xh" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -439,9 +591,13 @@
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
 "xX" = (
+/obj/structure/machinery/photocopier,
+/obj/structure/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/almayer{
 	dir = 10;
-	icon_state = "blue"
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "yB" = (
@@ -518,6 +674,17 @@
 	dir = 8
 	},
 /area/almayer/command/cic)
+"CE" = (
+/turf/open/floor/almayer{
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
+"CM" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
 "CN" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -529,7 +696,14 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
+/obj/structure/machinery/computer/groundside_operations{
+	dir = 8;
+	pixel_y = 8
+	},
 /turf/open/floor/almayer,
+/area/almayer/command/cic)
+"Dm" = (
+/turf/open/floor/plating/plating_catwalk,
 /area/almayer/command/cic)
 "Dq" = (
 /turf/open/floor/almayer{
@@ -555,19 +729,49 @@
 "EJ" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"Fh" = (
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/space)
+"Fr" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel"
+	},
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/command/cic)
 "FY" = (
 /obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"Gq" = (
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "Gv" = (
 /obj/structure/machinery/computer/ordercomp,
 /turf/open/floor/almayer{
 	dir = 6;
-	icon_state = "blue"
+	icon_state = "silver"
 	},
+/area/almayer/command/cic)
+"Hd" = (
+/obj/structure/sign/safety/terminal{
+	pixel_x = -17;
+	pixel_y = -8
+	},
+/turf/closed/wall/almayer/outer,
 /area/almayer/command/cic)
 "Hh" = (
 /obj/structure/platform{
@@ -591,11 +795,22 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/transmitter/rotary{
+	name = "Delta Overwatch Telephone";
+	phone_category = "Command";
+	phone_id = "Delta Overwatch"
+	},
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "bluecorner"
+	dir = 4;
+	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
+"HL" = (
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
 "HS" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
 	name = "\improper XO's Quarters";
@@ -627,17 +842,17 @@
 "IV" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/commandbunks)
+"Ju" = (
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "silver"
+	},
+/area/almayer/command/cic)
 "JM" = (
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/almayer/command/cic)
-"Kt" = (
-/obj/structure/machinery/status_display{
-	pixel_y = 30
-	},
-/turf/open/floor/almayer,
 /area/almayer/command/cic)
 "Kv" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -682,25 +897,36 @@
 /obj/effect/landmark/start/captain,
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Lv" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/closed/wall/almayer/outer,
+/area/almayer/command/cic)
 "LU" = (
 /turf/open/floor/almayer_hull{
 	dir = 1;
 	icon_state = "outerhull_dir"
 	},
 /area/space)
-"Na" = (
-/turf/open/floor/almayer,
-/area/almayer/living/numbertwobunks)
 "NQ" = (
 /obj/structure/barricade/handrail/strata,
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "blue"
+	dir = 10;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"Od" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
 "Ov" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "CIC Lockdown";
+	name = "\improper Combat Information Center Blast Door"
+	},
 /turf/open/space,
 /area/space)
 "Pj" = (
@@ -718,10 +944,44 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 4;
+	layer = 3.2
+	},
 /turf/open/floor/almayer{
-	dir = 1;
+	dir = 8;
+	icon_state = "red"
+	},
+/area/almayer/command/cic)
+"Qj" = (
+/obj/structure/window/framed/almayer/hull,
+/obj/structure/sign/safety/terminal{
+	pixel_x = -17;
+	pixel_y = -8
+	},
+/turf/open/floor/plating,
+/area/almayer/command/cic)
+"Qw" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/structure/machinery/computer/card{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 4;
 	icon_state = "blue"
 	},
+/area/almayer/command/cic)
+"Qz" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel"
+	},
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
 "QA" = (
 /turf/open/floor/almayer{
@@ -741,9 +1001,14 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
 	},
+/obj/structure/transmitter/rotary{
+	name = "Bravo Overwatch Telephone";
+	phone_category = "Command";
+	phone_id = "Bravo Overwatch"
+	},
 /turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "bluecorner"
+	dir = 4;
+	icon_state = "orange"
 	},
 /area/almayer/command/cic)
 "RW" = (
@@ -757,7 +1022,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
 "SR" = (
 /obj/structure/machinery/light{
@@ -778,9 +1043,10 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
+/obj/structure/machinery/computer/tech_control,
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "blue"
+	dir = 9;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "TS" = (
@@ -820,7 +1086,8 @@
 "Uo" = (
 /obj/structure/machinery/computer/crew,
 /turf/open/floor/almayer{
-	icon_state = "blue"
+	dir = 10;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "Up" = (
@@ -834,6 +1101,12 @@
 "Uy" = (
 /turf/open/space/basic,
 /area/space)
+"UI" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "UN" = (
 /turf/open/floor/almayer_hull{
 	dir = 8;
@@ -856,9 +1129,7 @@
 	req_access = null;
 	req_access_txt = "31"
 	},
-/turf/open/floor/almayer{
-	icon_state = "blue"
-	},
+/turf/open/floor/almayer,
 /area/almayer/living/numbertwobunks)
 "Vr" = (
 /turf/open/floor/almayer_hull{
@@ -868,6 +1139,11 @@
 /area/space)
 "Wa" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "CIC Lockdown";
+	name = "\improper Combat Information Center Blast Door"
+	},
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "bluecorner"
@@ -879,6 +1155,12 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Wq" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "orange"
+	},
+/area/almayer/command/cic)
 "Ww" = (
 /obj/structure/platform{
 	layer = 3.1
@@ -887,8 +1169,8 @@
 	icon_state = "pottedplant_10"
 	},
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "blue"
+	dir = 10;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "WK" = (
@@ -899,6 +1181,12 @@
 	icon_state = "sterile"
 	},
 /area/almayer/living/commandbunks)
+"Xp" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "emerald"
+	},
+/area/almayer/command/cic)
 "Xw" = (
 /turf/open/floor/almayer_hull{
 	dir = 9;
@@ -907,6 +1195,7 @@
 /area/space)
 "Xx" = (
 /obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap,
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
@@ -915,9 +1204,13 @@
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/numbertwobunks)
 "Yy" = (
+/obj/structure/machinery/vending/cigarette,
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
 /turf/open/floor/almayer{
 	dir = 5;
-	icon_state = "blue"
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "YA" = (
@@ -942,7 +1235,30 @@
 	dir = 4
 	},
 /obj/structure/barricade/handrail/strata,
-/turf/open/floor/almayer,
+/obj/structure/machinery/door_control{
+	id = "CIC Lockdown";
+	name = "CIC Lockdown";
+	pixel_x = -7;
+	pixel_y = 9;
+	req_access_txt = "1"
+	},
+/obj/structure/transmitter/rotary{
+	name = "Combat Information Center Telephone";
+	phone_category = "Command";
+	phone_id = "Combat Information Center";
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/structure/machinery/computer/almayer_control{
+	dir = 8;
+	layer = 2.99;
+	pixel_y = 26
+	},
+/obj/item/device/megaphone,
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "silver"
+	},
 /area/almayer/command/cic)
 "YX" = (
 /turf/open/floor/almayer/uscm/directional,
@@ -980,8 +1296,8 @@
 	icon_state = "pottedplant_10"
 	},
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "blue"
+	dir = 9;
+	icon_state = "silver"
 	},
 /area/almayer/command/cic)
 "ZG" = (
@@ -990,7 +1306,8 @@
 	layer = 3.25
 	},
 /turf/open/floor/almayer{
-	icon_state = "blue"
+	dir = 8;
+	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
 
@@ -3710,9 +4027,9 @@ LU
 wy
 KX
 uN
+cT
 pl
-pl
-pl
+CE
 Ta
 Dq
 wy
@@ -3952,13 +4269,13 @@ aa
 oJ
 LU
 oz
-KX
+mH
 pl
+Dm
+oG
+Dm
 pl
-pl
-pl
-pl
-Dq
+iA
 oz
 oJ
 LU
@@ -4076,9 +4393,9 @@ oz
 di
 Rn
 pl
-pl
-pl
-pl
+iA
+kN
+Ju
 pl
 HI
 ke
@@ -4194,15 +4511,15 @@ oJ
 aa
 aa
 oJ
-wy
+Qj
 cw
-pl
-pl
+Wq
+iA
 jE
 Bb
 rR
-pl
-pl
+Ju
+Xp
 ZG
 wy
 LU
@@ -4319,11 +4636,11 @@ oJ
 wy
 FY
 vq
-pl
+cT
 ty
 xj
 YX
-pl
+CE
 vq
 Xx
 wy
@@ -4440,13 +4757,13 @@ aa
 oJ
 wy
 wJ
-pl
-pl
+lE
+Gq
 QX
 mY
 Th
-pl
-pl
+kS
+JM
 gl
 wy
 LU
@@ -4562,11 +4879,11 @@ aa
 oJ
 oz
 Qf
-gs
+ep
 pl
-pl
-pl
-pl
+Gq
+CM
+kS
 pl
 gs
 jr
@@ -4682,17 +4999,17 @@ oJ
 aa
 aa
 oJ
-oz
+Hd
 rG
+Qz
+pl
+pl
+pl
+pl
+pl
+Fr
 rG
-Kt
-pl
-pl
-pl
-pl
-rG
-fC
-oz
+Lv
 LU
 aa
 aa
@@ -4806,13 +5123,13 @@ aa
 oJ
 wy
 ig
+xb
 pl
 pl
+Dm
 pl
 pl
-pl
-pl
-pl
+dz
 Uo
 wy
 LU
@@ -4927,13 +5244,13 @@ aa
 aa
 oJ
 wy
-KX
+js
 pl
+Dm
 pl
-pl
-pl
-pl
-pl
+Dm
+UI
+Dm
 pl
 qb
 wy
@@ -5052,8 +5369,8 @@ oz
 Yy
 nv
 nV
-JM
-iF
+md
+Qw
 iF
 nv
 nV
@@ -5300,7 +5617,7 @@ Ze
 Ze
 Ze
 qU
-PT
+Fh
 IQ
 za
 za
@@ -5547,7 +5864,7 @@ Ze
 qU
 Ze
 HS
-Na
+cQ
 Sn
 cQ
 Yi
@@ -5659,15 +5976,15 @@ Un
 QT
 wW
 EJ
-qU
+pL
 PT
+Od
 Ze
 Ze
 Ze
-Ze
-Ze
+Od
 qU
-PT
+Fh
 Yi
 Yi
 eO
@@ -5783,17 +6100,17 @@ ss
 xh
 qU
 PT
+Od
 Ze
 Ze
 Ze
-Ze
-Ze
+Od
 qU
 PT
 AJ
 eI
 ar
-cQ
+HL
 Yi
 Uy
 Uy
