@@ -909,6 +909,10 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"Mc" = (
+/obj/structure/machinery/cm_vending/clothing/senior_officer,
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/numbertwobunks)
 "MV" = (
 /obj/structure/machinery/power/apc/almayer,
 /turf/open/floor/almayer{
@@ -5741,7 +5745,7 @@ Yi
 Hu
 lZ
 fl
-Yi
+Mc
 Uy
 Uy
 Uy
