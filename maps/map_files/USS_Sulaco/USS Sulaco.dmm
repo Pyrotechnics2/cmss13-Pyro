@@ -2,6 +2,134 @@
 "aa" = (
 /turf/open/space,
 /area/space)
+"ar" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/numbertwobunks)
+"bV" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 1
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
+"cw" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"cQ" = (
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
+"cV" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
+"di" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"eI" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/transmitter/rotary{
+	name = "Captain's Office";
+	phone_category = "Offices";
+	phone_id = "Captain's Office";
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
+"eO" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/numbertwobunks)
+"fl" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
+"fC" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/command/cic)
+"gl" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"gs" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
+"ig" = (
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"iF" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"jr" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "jE" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 9
@@ -13,12 +141,27 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"ke" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "lZ" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/item/storage/fancy/cigarettes/lady_finger{
+	pixel_y = 5
+	},
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/living/numbertwobunks)
 "mE" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -30,6 +173,13 @@
 "mR" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
+	},
+/obj/structure/transmitter{
+	name = "CO's Office";
+	phone_category = "Offices";
+	phone_id = "CMO Office";
+	dir = 8;
+	pixel_x = 16
 	},
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
@@ -48,6 +198,12 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/cic)
+"nN" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/almayer,
+/area/space)
 "nV" = (
 /turf/open/floor/almayer{
 	icon_state = "bluecorner"
@@ -87,6 +243,14 @@
 "pl" = (
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"pO" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	layer = 3.1;
+	pixel_y = 11
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/living/commandbunks)
 "pQ" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -103,6 +267,12 @@
 /obj/item/bedsheet/hop,
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"qb" = (
+/obj/structure/machinery/computer/med_data,
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "qv" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -122,10 +292,6 @@
 	icon_state = "blue"
 	},
 /area/space)
-"rp" = (
-/obj/structure/window/framed/almayer,
-/turf/open/floor/plating,
-/area/almayer/command/cic)
 "rG" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
@@ -168,6 +334,12 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"tT" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "uG" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
 	dir = 1;
@@ -178,22 +350,58 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"uN" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
+"uS" = (
+/obj/structure/machinery/door/airlock/almayer/command/reinforced{
+	dir = 1;
+	name = "\improper Commanding Officer's Office";
+	req_access = null;
+	req_access_txt = "31";
+	id_tag = "CO-Office"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/living/commandbunks)
 "uX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced{
 	dir = 1;
 	name = "\improper Combat Information Center"
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "bluecorner"
 	},
 /area/space)
+"vq" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "vF" = (
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
 "wy" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
+/area/almayer/command/cic)
+"wJ" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
 /area/almayer/command/cic)
 "wW" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -207,6 +415,9 @@
 /area/almayer/living/commandbunks)
 "xh" = (
 /obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/plating,
 /area/almayer/living/commandbunks)
 "xj" = (
@@ -221,6 +432,12 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"xR" = (
+/obj/structure/machinery/status_display{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet,
+/area/almayer/living/commandbunks)
 "xX" = (
 /turf/open/floor/almayer{
 	dir = 10;
@@ -242,16 +459,27 @@
 	},
 /area/space)
 "yJ" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/emails,
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/living/numbertwobunks)
+"yK" = (
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/plating,
+/area/almayer/living/numbertwobunks)
+"za" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/living/numbertwobunks)
 "zt" = (
 /obj/structure/sign/prop1,
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
 "zL" = (
+/obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/plating,
 /area/almayer/command/cic)
 "zX" = (
@@ -269,15 +497,20 @@
 	},
 /area/space)
 "zZ" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hop,
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/living/numbertwobunks)
 "AJ" = (
 /obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/plating,
-/area/space)
+/area/almayer/living/numbertwobunks)
 "AL" = (
 /area/space)
 "Bb" = (
@@ -285,17 +518,33 @@
 	dir = 8
 	},
 /area/almayer/command/cic)
+"CN" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "Dq" = (
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
 "Dx" = (
+/obj/structure/machinery/status_display{
+	pixel_x = 32
+	},
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/space)
+/area/almayer/living/numbertwobunks)
 "DV" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/space/basic,
@@ -306,13 +555,42 @@
 "EJ" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
+"FY" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "Gv" = (
+/obj/structure/machinery/computer/ordercomp,
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Hh" = (
+/obj/structure/platform{
+	layer = 3.1
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
+"Hu" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
 "HI" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "bluecorner"
@@ -325,8 +603,11 @@
 	req_access = null;
 	dir = 2
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/almayer,
-/area/space)
+/area/almayer/living/numbertwobunks)
 "Iq" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/card{
@@ -349,6 +630,19 @@
 "JM" = (
 /turf/open/floor/almayer{
 	dir = 4;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"Kt" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
+"Kv" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/turf/open/floor/almayer{
+	dir = 1;
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
@@ -394,8 +688,19 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"Na" = (
+/turf/open/floor/almayer,
+/area/almayer/living/numbertwobunks)
+"NQ" = (
+/obj/structure/barricade/handrail/strata,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "Ov" = (
 /obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/space,
 /area/space)
 "Pj" = (
@@ -409,6 +714,15 @@
 	icon_state = "blue"
 	},
 /area/space)
+"Qf" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "QA" = (
 /turf/open/floor/almayer{
 	dir = 10;
@@ -424,6 +738,9 @@
 	},
 /area/almayer/command/cic)
 "Rn" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "bluecorner"
@@ -436,15 +753,34 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Sn" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/numbertwobunks)
 "SR" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Ta" = (
+/obj/structure/stairs,
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "Th" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 6
+	},
+/area/almayer/command/cic)
+"Tw" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
 	},
 /area/almayer/command/cic)
 "TS" = (
@@ -476,8 +812,17 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Uo" = (
+/obj/structure/machinery/computer/crew,
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 "Up" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
 	name = "\improper Commanding Officer's Quarters";
@@ -500,10 +845,21 @@
 	dir = 1;
 	name = "\improper Combat Information Center"
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Ve" = (
+/obj/structure/machinery/door/airlock/almayer/command/reinforced{
+	name = "\improper Commanding Officer's Quarters";
+	req_access = null;
+	req_access_txt = "31"
+	},
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/living/numbertwobunks)
 "Vr" = (
 /turf/open/floor/almayer_hull{
 	dir = 5;
@@ -511,12 +867,25 @@
 	},
 /area/space)
 "Wa" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "bluecorner"
 	},
 /area/space)
 "Wb" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"Ww" = (
+/obj/structure/platform{
+	layer = 3.1
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "blue"
@@ -536,6 +905,15 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"Xx" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"Yi" = (
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/living/numbertwobunks)
 "Yy" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -552,6 +930,20 @@
 	icon_state = "plate"
 	},
 /area/almayer/living/commandbunks)
+"YC" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	icon_state = "prisontable"
+	},
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.7
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/strata,
+/turf/open/floor/almayer,
+/area/almayer/command/cic)
 "YX" = (
 /turf/open/floor/almayer/uscm/directional,
 /area/almayer/command/cic)
@@ -580,6 +972,27 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"ZC" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
+"ZG" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/turf/open/floor/almayer{
+	icon_state = "blue"
+	},
+/area/almayer/command/cic)
 
 (1,1,1) = {"
 Uy
@@ -3174,11 +3587,11 @@ oJ
 Xw
 oz
 tI
+Ww
+Tw
 Wb
-Wb
-Wb
-Wb
-Wb
+NQ
+ZC
 xX
 oz
 xy
@@ -3296,11 +3709,11 @@ oJ
 LU
 wy
 KX
+uN
 pl
 pl
 pl
-pl
-pl
+Ta
 Dq
 wy
 oJ
@@ -3418,11 +3831,11 @@ oJ
 LU
 wy
 KX
-pl
-pl
-pl
-pl
-pl
+Hh
+bV
+CN
+YC
+tT
 Dq
 wy
 oJ
@@ -3660,7 +4073,7 @@ aa
 aa
 oJ
 oz
-tI
+di
 Rn
 pl
 pl
@@ -3668,7 +4081,7 @@ pl
 pl
 pl
 HI
-xX
+ke
 oz
 LU
 aa
@@ -3782,7 +4195,7 @@ aa
 aa
 oJ
 wy
-KX
+cw
 pl
 pl
 jE
@@ -3790,7 +4203,7 @@ Bb
 rR
 pl
 pl
-Dq
+ZG
 wy
 LU
 aa
@@ -3904,15 +4317,15 @@ aa
 aa
 oJ
 wy
-KX
-pl
+FY
+vq
 pl
 ty
 xj
 YX
 pl
-pl
-Dq
+vq
+Xx
 wy
 LU
 aa
@@ -4026,7 +4439,7 @@ aa
 aa
 oJ
 wy
-KX
+wJ
 pl
 pl
 QX
@@ -4034,7 +4447,7 @@ mY
 Th
 pl
 pl
-Dq
+gl
 wy
 LU
 aa
@@ -4148,15 +4561,15 @@ aa
 aa
 oJ
 oz
-KX
+Qf
+gs
 pl
 pl
 pl
 pl
 pl
-pl
-pl
-Dq
+gs
+jr
 oz
 LU
 aa
@@ -4270,15 +4683,15 @@ aa
 aa
 oJ
 oz
-KX
+rG
+rG
+Kt
 pl
 pl
 pl
 pl
-pl
-pl
-pl
-Dq
+rG
+fC
 oz
 LU
 aa
@@ -4392,7 +4805,7 @@ aa
 aa
 oJ
 wy
-KX
+ig
 pl
 pl
 pl
@@ -4400,7 +4813,7 @@ pl
 pl
 pl
 pl
-Dq
+Uo
 wy
 LU
 aa
@@ -4522,7 +4935,7 @@ pl
 pl
 pl
 pl
-Dq
+qb
 wy
 LU
 aa
@@ -4640,8 +5053,8 @@ Yy
 nv
 nV
 JM
-JM
-JM
+iF
+iF
 nv
 nV
 Gv
@@ -4759,12 +5172,12 @@ Xw
 tD
 oz
 rG
-KX
+Kv
 UW
 zL
-rp
 zL
-KX
+zL
+Kv
 UW
 rG
 oz
@@ -4881,7 +5294,7 @@ DV
 DV
 IV
 IQ
-qU
+cV
 PT
 Ze
 Ze
@@ -4889,11 +5302,11 @@ Ze
 qU
 PT
 IQ
-Eu
-Eu
-Eu
-Eu
-Eu
+za
+za
+yK
+za
+za
 Eu
 Eu
 Eu
@@ -5000,7 +5413,7 @@ ts
 EJ
 RW
 tf
-vF
+pO
 EJ
 Pj
 Ze
@@ -5011,11 +5424,11 @@ Ze
 QA
 Ze
 QA
-IQ
-Pj
+Yi
+Hu
 lZ
-QA
-IQ
+fl
+Yi
 Uy
 Uy
 Uy
@@ -5123,7 +5536,7 @@ uG
 vF
 vF
 vF
-uG
+uS
 Ze
 PT
 Ze
@@ -5134,10 +5547,10 @@ Ze
 qU
 Ze
 HS
-Ze
-Ze
-PT
-IQ
+Na
+Sn
+cQ
+Yi
 Uy
 Uy
 Uy
@@ -5255,11 +5668,11 @@ Ze
 Ze
 qU
 PT
-IQ
-IQ
-IQ
-PT
-IQ
+Yi
+Yi
+eO
+Ve
+Yi
 Uy
 Uy
 Uy
@@ -5378,10 +5791,10 @@ Ze
 qU
 PT
 AJ
-qU
-Ze
-PT
-IQ
+eI
+ar
+cQ
+Yi
 Uy
 Uy
 Uy
@@ -5487,23 +5900,23 @@ YA
 WK
 EJ
 jV
-QT
+xR
 mR
 xh
 qU
 PT
+nN
 Ze
 Ze
 Ze
-Ze
-Ze
+nN
 qU
 PT
 AJ
 yJ
 Dx
 zZ
-IQ
+Yi
 Uy
 Uy
 Uy
@@ -5621,11 +6034,11 @@ Ov
 IQ
 Wa
 uX
-IQ
-IQ
-IQ
-IQ
-IQ
+Yi
+Yi
+Yi
+Yi
+Yi
 Uy
 Uy
 Uy
