@@ -12,6 +12,9 @@
 "ag" = (
 /turf/open/space,
 /area/almayer/command/securestorage)
+"am" = (
+/turf/closed/wall/almayer,
+/area/almayer/medical/lower_medical_lobby)
 "ar" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -21,6 +24,9 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"au" = (
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "aD" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -58,6 +64,12 @@
 /obj/effect/landmark/start/warden,
 /turf/open/floor/almayer,
 /area/almayer/living/cryo_cells)
+"bP" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "bV" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -82,6 +94,19 @@
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
 /area/almayer/shipboard/brig/armory)
+"cg" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/window/reinforced/ultra{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "cw" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8;
@@ -128,6 +153,17 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cichallway)
+"dd" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
+"de" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clipboard,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "di" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -175,6 +211,10 @@
 "ea" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/cryo_cells)
+"ef" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "em" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	name = "ship-grade camera";
@@ -261,6 +301,9 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/port_emb)
+"fe" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/living/briefing)
 "fl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -270,6 +313,16 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"fv" = (
+/obj/structure/surface/table/almayer,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
+"fw" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "bluecorner"
+	},
+/area/almayer/command/cic)
 "fI" = (
 /obj/structure/machinery/power/apc/almayer/hardened,
 /obj/structure/window/reinforced{
@@ -288,6 +341,10 @@
 	icon_state = "cargo"
 	},
 /area/almayer/command/airoom)
+"fQ" = (
+/obj/effect/landmark/start/pilot,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "fV" = (
 /obj/structure/machinery/cryopod{
 	dir = 1
@@ -320,6 +377,11 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/armory)
+"gk" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "gl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
@@ -330,6 +392,12 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"gr" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "gs" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -353,6 +421,22 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/port_emb)
+"gy" = (
+/obj/structure/reagent_dispensers/oxygentank{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "gA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -393,12 +477,43 @@
 "gU" = (
 /turf/open/space/basic,
 /area/almayer/medical/testlab)
+"gX" = (
+/turf/open/space/basic,
+/area/almayer/hallways/hangar)
+"gY" = (
+/obj/structure/machinery/door/airlock/almayer/maint,
+/turf/open/floor/almayer,
+/area/space)
 "ht" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/cryo_cells)
+"hy" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/reinforced/OT{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "hA" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/corporateliason)
+"hF" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/engineering/engineering_workshop/hangar)
+"hG" = (
+/obj/structure/reagent_dispensers/fueltank/gas/methane{
+	anchored = 1
+	},
+/obj/structure/sign/safety/fire_haz{
+	pixel_x = 8;
+	pixel_y = -32
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "hO" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -411,10 +526,25 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/shipboard/brig/armory)
+"hV" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/fancy/cigarettes/wypacket,
+/obj/item/tool/lighter/zippo,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "hW" = (
 /obj/effect/landmark/start/working_joe,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/command/airoom)
+"hX" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "\improper Flight Crew Quarters";
+	req_one_access_txt = "19;22"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "ia" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
@@ -446,12 +576,30 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"ir" = (
+/turf/open/floor/plating,
+/area/almayer/hallways/hangar)
+"ix" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/almayer/hallways/hangar)
 "iA" = (
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"iD" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "iF" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -466,12 +614,25 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"iH" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/cameras/wooden_tv/ot{
+	pixel_y = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "jh" = (
 /turf/open/space,
 /area/almayer/medical/testlab)
 "ji" = (
 /turf/open/space,
 /area/almayer/medical/containment/cell)
+"jo" = (
+/obj/structure/machinery/chem_master/industry_mixer,
+/turf/open/floor/almayer{
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "jr" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -570,6 +731,15 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"jY" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "ke" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -584,6 +754,16 @@
 	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
+"kj" = (
+/obj/structure/reagent_dispensers/acidtank,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "kn" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -600,6 +780,11 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/command/corporateliason)
+"ky" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "kJ" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/command/airoom)
@@ -629,6 +814,11 @@
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/almayer,
 /area/almayer/living/port_emb)
+"lD" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/fancy/cigarettes/wypacket,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "lE" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -641,6 +831,10 @@
 	icon_state = "blue"
 	},
 /area/almayer/hull/upper_hull/u_f_s)
+"lQ" = (
+/obj/structure/machinery/computer/crew,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "lZ" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -677,6 +871,19 @@
 "mj" = (
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
+"mo" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/emails{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/living/pilotbunks)
+"mq" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "ms" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21";
@@ -685,6 +892,20 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/command/corporateliason)
+"mt" = (
+/obj/structure/machinery/cm_vending/clothing/pilot_officer,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
+"mx" = (
+/obj/structure/reagent_dispensers/fueltank/custom,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "mA" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -716,6 +937,16 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"mI" = (
+/turf/closed/wall/almayer,
+/area/almayer/squads/req)
+"mM" = (
+/obj/structure/machinery/camera/autoname/almayer{
+	dir = 4;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "mR" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -759,12 +990,39 @@
 	icon_state = "blue"
 	},
 /area/almayer/hull/upper_hull/u_f_s)
+"nt" = (
+/obj/structure/reagent_dispensers/fueltank{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2;
+	layer = 3.33
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "nv" = (
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
+"nw" = (
+/obj/structure/reagent_dispensers/ammoniatank{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "nx" = (
 /turf/open/space,
 /area/almayer/command/computerlab)
@@ -779,6 +1037,12 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/shipboard/brig/armory)
+"nL" = (
+/obj/structure/reagent_dispensers/fueltank/custom,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "nN" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -788,6 +1052,13 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"nR" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/reagentgrinder/industrial{
+	pixel_y = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "nU" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -821,9 +1092,26 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"op" = (
+/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "oz" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/command/cic)
+"oA" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/machinery/prop/almayer/computer{
+	dir = 4;
+	pixel_x = -17
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "oE" = (
 /obj/structure/machinery/cm_vending/clothing/commanding_officer,
 /turf/closed/wall/almayer/reinforced,
@@ -839,6 +1127,10 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"ph" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "pl" = (
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
@@ -927,6 +1219,36 @@
 	},
 /turf/open/floor/plating,
 /area/almayer/shipboard/brig/armory)
+"qh" = (
+/turf/open/space/basic,
+/area/almayer/squads/req)
+"qk" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/plastic{
+	amount = 5
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 30;
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "qt" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -949,6 +1271,12 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"qy" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/almayer{
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "qE" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -979,9 +1307,27 @@
 	icon_state = "blue"
 	},
 /area/almayer/hull/upper_hull/u_f_s)
+"re" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "rf" = (
 /turf/open/space,
 /area/almayer/shipboard/brig/lobby)
+"rr" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
+"ru" = (
+/obj/docking_port/stationary/marine_dropship/almayer_hangar_1,
+/turf/open/floor/plating,
+/area/almayer/hallways/hangar)
 "rG" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/cic)
@@ -1011,6 +1357,11 @@
 /obj/item/storage/fancy/cigar,
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
+"sH" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer,
+/area/space)
 "sM" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -1072,6 +1423,10 @@
 	icon_state = "sterile"
 	},
 /area/almayer/living/commandbunks)
+"tj" = (
+/obj/structure/machinery/photocopier,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "ts" = (
 /obj/structure/machinery/cryopod,
 /turf/open/floor/wood/ship,
@@ -1097,6 +1452,13 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"tJ" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "tT" = (
 /obj/structure/platform{
 	dir = 1
@@ -1127,6 +1489,20 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/cichallway)
+"uu" = (
+/obj/item/clothing/suit/storage/marine/light/vest,
+/obj/item/clothing/suit/storage/marine/light/vest,
+/obj/item/clothing/suit/storage/marine/light/vest,
+/obj/item/clothing/suit/storage/marine/light/vest,
+/obj/structure/closet/secure_closet/guncabinet/red,
+/obj/structure/sign/safety/storage{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/open/floor/almayer{
+	icon_state = "redfull"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "uG" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
 	dir = 1;
@@ -1162,6 +1538,10 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"uU" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/closed/wall/almayer,
+/area/almayer/living/pilotbunks)
 "uX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced{
 	dir = 1;
@@ -1178,6 +1558,14 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/cic)
+"vd" = (
+/obj/structure/reagent_dispensers/watertank{
+	anchored = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "vh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -1185,6 +1573,12 @@
 /obj/effect/landmark/start/reporter,
 /turf/open/floor/almayer,
 /area/almayer/living/cryo_cells)
+"vi" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "vq" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -1210,6 +1604,11 @@
 	},
 /turf/open/floor/carpet,
 /area/almayer/command/corporateliason)
+"vy" = (
+/turf/open/floor/almayer{
+	icon_state = "bluefull"
+	},
+/area/almayer/living/pilotbunks)
 "vF" = (
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
@@ -1242,6 +1641,23 @@
 	icon_state = "green"
 	},
 /area/almayer/living/port_emb)
+"wr" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
+"wu" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2;
+	name = "\improper Bunks Room"
+	},
+/turf/open/floor/plating,
+/area/almayer/living/pilotbunks)
 "wy" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -1275,6 +1691,11 @@
 	},
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
+"xa" = (
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "xb" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -1284,6 +1705,10 @@
 	icon_state = "silvercorner"
 	},
 /area/almayer/command/cic)
+"xc" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/almayer/living/pilotbunks)
 "xg" = (
 /obj/structure/closet/secure_closet/guncabinet/riot_control,
 /obj/item/clothing/suit/armor/riot/marine,
@@ -1311,6 +1736,12 @@
 	icon_state = "logo_c"
 	},
 /area/almayer/command/cic)
+"xq" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21"
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "xy" = (
 /turf/open/floor/almayer_hull{
 	dir = 10;
@@ -1345,6 +1776,22 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"yf" = (
+/obj/structure/machinery/cm_vending/sorted/tech/tool_storage,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
+"yj" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
+/area/almayer/command/cic)
 "yB" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -1374,9 +1821,27 @@
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
 /area/almayer/living/numbertwobunks)
+"yN" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/toy/deck{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "za" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/numbertwobunks)
+"zk" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/firstaid/fire{
+	pixel_x = -6
+	},
+/obj/item/tool/hand_labeler{
+	pixel_x = 7
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "zt" = (
 /obj/structure/sign/prop1,
 /turf/closed/wall/almayer/reinforced,
@@ -1408,6 +1873,10 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"Ak" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Ap" = (
 /turf/open/floor/almayer,
 /area/almayer/living/port_emb)
@@ -1420,6 +1889,9 @@
 /area/almayer/living/numbertwobunks)
 "AL" = (
 /area/space)
+"AU" = (
+/turf/closed/wall/almayer,
+/area/almayer/living/pilotbunks)
 "AX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -1432,6 +1904,18 @@
 	dir = 8
 	},
 /area/almayer/command/cic)
+"Bf" = (
+/obj/structure/surface/rack,
+/obj/item/reagent_container/glass/bucket/janibucket,
+/obj/item/reagent_container/glass/bucket/janibucket,
+/obj/item/reagent_container/glass/bucket/janibucket{
+	pixel_y = 11
+	},
+/obj/item/reagent_container/glass/bucket/janibucket{
+	pixel_y = 11
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "Bj" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -1450,6 +1934,21 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cichallway)
+"BO" = (
+/obj/structure/reagent_dispensers/pacidtank{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Ca" = (
 /obj/structure/machinery/computer/card{
 	dir = 4
@@ -1465,6 +1964,22 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/armory)
+"Ce" = (
+/obj/structure/reagent_dispensers/ethanoltank{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2;
+	layer = 3.33
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Cm" = (
 /turf/open/floor/almayer{
 	icon_state = "red"
@@ -1538,6 +2053,12 @@
 /obj/effect/landmark/start/researcher,
 /turf/open/floor/almayer,
 /area/almayer/living/cryo_cells)
+"CY" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Dc" = (
 /turf/open/floor/almayer{
 	icon_state = "blue"
@@ -1563,6 +2084,9 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"DK" = (
+/turf/open/space/basic,
+/area/almayer/living/briefing)
 "DT" = (
 /turf/open/space,
 /area/almayer/medical/medical_science)
@@ -1622,6 +2146,17 @@
 "Eu" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
+"EI" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/door/window/southleft{
+	desc = "A window, that is also a door. A windoor if you will. This one is stronger.";
+	health = 500;
+	name = "Reinforced Glass door";
+	req_one_access_txt = "2;35";
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "EJ" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/commandbunks)
@@ -1634,6 +2169,12 @@
 	},
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
+"EN" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "EO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -1713,6 +2254,38 @@
 	icon_state = "cargo"
 	},
 /area/almayer/living/cryo_cells)
+"FO" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/structure/machinery/camera/autoname/almayer{
+	dir = 1;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer{
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
+"FQ" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "FY" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/prop/almayer/CICmap,
@@ -1730,6 +2303,17 @@
 	icon_state = "cargo"
 	},
 /area/almayer/living/cryo_cells)
+"Gl" = (
+/obj/structure/machinery/computer/med_data,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
+"Go" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/manifold/fourway/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "Gq" = (
 /turf/open/floor/almayer{
 	dir = 10;
@@ -1758,6 +2342,19 @@
 	icon_state = "cargo_arrow"
 	},
 /area/almayer/living/cryo_cells)
+"GG" = (
+/obj/structure/sign/safety/ammunition{
+	pixel_x = -17;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
+"GP" = (
+/obj/structure/machinery/cm_vending/sorted/tech/comp_storage,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "GU" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
@@ -1789,6 +2386,13 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"Hi" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/window/reinforced/ultra{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "Hn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -1819,6 +2423,13 @@
 	icon_state = "blue"
 	},
 /area/almayer/living/numbertwobunks)
+"HB" = (
+/obj/structure/machinery/cryopod{
+	pixel_y = 6;
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "HI" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -1871,6 +2482,11 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/command/corporateliason)
+"Im" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/manifold/fourway/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Iq" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/card{
@@ -1884,6 +2500,15 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"IM" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21"
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21"
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "IO" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "\improper Combat Correspondent Room";
@@ -1894,6 +2519,11 @@
 "IQ" = (
 /turf/closed/wall/almayer/reinforced,
 /area/space)
+"IT" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/demo_sim,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "IV" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/commandbunks)
@@ -1909,6 +2539,12 @@
 	icon_state = "bluecorner"
 	},
 /area/almayer/command/cichallway)
+"JH" = (
+/turf/open/floor/plating,
+/area/almayer/squads/req)
+"JI" = (
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/hallways/hangar)
 "JM" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -1940,6 +2576,35 @@
 /obj/structure/machinery/light,
 /turf/open/floor/almayer,
 /area/almayer/command/cichallway)
+"Ku" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/aluminum{
+	amount = 20
+	},
+/obj/item/stack/sheet/copper{
+	amount = 20;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/mineral/gold{
+	amount = 3;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/mineral/silver{
+	amount = 5;
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Kv" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
@@ -1947,12 +2612,26 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Ky" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "KQ" = (
 /obj/effect/step_trigger/message/memorial,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
 /area/almayer/living/starboard_garden)
+"KR" = (
+/obj/structure/closet/secure_closet/personal/cabinet{
+	req_access = null
+	},
+/obj/item/clothing/mask/rebreather/scarf,
+/obj/item/clothing/mask/rebreather/scarf,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "KW" = (
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -1984,13 +2663,21 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
-"Ln" = (
-/mob/living/simple_animal/cat/Jones{
-	dir = 8;
-	icon_state = "cat";
-	name = "Bishop";
-	real_name = "Bishop"
+"Lk" = (
+/obj/structure/sign/safety/hazard{
+	pixel_x = -17;
+	pixel_y = -8
 	},
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
+"Ll" = (
+/turf/open/floor/almayer,
+/area/almayer/hallways/hangar)
+"Ln" = (
 /obj/effect/landmark/start/captain,
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
@@ -2005,6 +2692,18 @@
 	},
 /turf/closed/wall/almayer/outer,
 /area/almayer/command/cic)
+"Lw" = (
+/obj/structure/closet{
+	name = "backpack storage"
+	},
+/obj/item/storage/backpack/marine/grenadepack,
+/obj/item/storage/backpack/marine/grenadepack,
+/obj/item/storage/backpack/marine/mortarpack,
+/obj/item/storage/backpack/marine/mortarpack,
+/turf/open/floor/almayer{
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Lz" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -2045,6 +2744,9 @@
 "Mj" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
+/area/space)
+"Mo" = (
+/turf/open/floor/almayer,
 /area/space)
 "Mx" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -2091,12 +2793,26 @@
 	icon_state = "silver"
 	},
 /area/almayer/command/cic)
+"MX" = (
+/obj/structure/window/framed/almayer/hull/hijack_bustable,
+/turf/open/floor/plating,
+/area/almayer/engineering/engineering_workshop/hangar)
+"MY" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Nd" = (
 /obj/structure/machinery/power/apc/almayer/hardened{
 	dir = 8
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/command/corporateliason)
+"Nz" = (
+/obj/effect/landmark/start/crew_chief,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "NH" = (
 /obj/structure/machinery/r_n_d/server/core{
 	unacidable = 1;
@@ -2126,6 +2842,9 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/armory)
+"Oc" = (
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "Oq" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	dir = 8;
@@ -2146,6 +2865,11 @@
 	},
 /turf/open/space,
 /area/almayer/command/cic)
+"OH" = (
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/living/pilotbunks)
 "OV" = (
 /obj/effect/landmark/start/researcher,
 /obj/effect/landmark/start/professor,
@@ -2156,6 +2880,23 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
+"Pb" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/obj/structure/machinery/prop/almayer/computer{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
+"Pi" = (
+/obj/structure/machinery/autolathe,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Pj" = (
 /turf/open/floor/almayer{
 	dir = 9;
@@ -2290,6 +3031,9 @@
 "Rc" = (
 /turf/open/space,
 /area/almayer/command/telecomms)
+"Rd" = (
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Rn" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -2304,6 +3048,10 @@
 	icon_state = "orange"
 	},
 /area/almayer/command/cic)
+"Ro" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "Rs" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -2315,6 +3063,13 @@
 /obj/effect/landmark/start/intel,
 /turf/open/floor/almayer,
 /area/almayer/living/cryo_cells)
+"Rw" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "RK" = (
 /turf/open/floor/almayer{
 	icon_state = "green"
@@ -2327,12 +3082,30 @@
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"Sm" = (
+/obj/structure/closet/secure_closet/CMO,
+/obj/structure/closet/secure_closet/CMO,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "Sn" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/numbertwobunks)
+"Ss" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/sprays,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
+"SA" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_x = 32
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "SC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -2362,8 +3135,18 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
+/mob/living/simple_animal/cat/Jones{
+	dir = 8;
+	icon_state = "cat";
+	name = "Bishop";
+	real_name = "Bishop"
+	},
 /turf/open/floor/wood/ship,
 /area/almayer/living/commandbunks)
+"SU" = (
+/obj/structure/machinery/power/apc/almayer,
+/turf/open/floor/almayer,
+/area/almayer/engineering/engineering_workshop/hangar)
 "Ta" = (
 /obj/structure/stairs,
 /turf/open/floor/almayer,
@@ -2373,6 +3156,9 @@
 	dir = 6
 	},
 /area/almayer/command/cic)
+"Tt" = (
+/turf/closed/wall/almayer,
+/area/almayer/living/briefing)
 "Tv" = (
 /obj/item/storage/secure/safe,
 /obj/item/spacecash/c1000/counterfeit,
@@ -2487,6 +3273,9 @@
 "Uy" = (
 /turf/open/space/basic,
 /area/space)
+"Uz" = (
+/turf/open/space/basic,
+/area/almayer/medical/morgue)
 "UA" = (
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /obj/structure/machinery/light{
@@ -2552,6 +3341,10 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/numbertwobunks)
+"Vj" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/pilot_officer,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "Vn" = (
 /obj/structure/bed/chair/office/dark,
 /obj/structure/machinery/door_control{
@@ -2619,6 +3412,28 @@
 	icon_state = "blue"
 	},
 /area/almayer/hull/upper_hull/u_f_s)
+"VO" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/fancy/cigar/tarbacktube,
+/obj/item/clothing/head/headset{
+	pixel_y = -7
+	},
+/obj/item/tool/crowbar,
+/obj/item/clothing/head/helmet/marine/pilottex{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/living/pilotbunks)
+"VP" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/emails{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "VZ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -2646,6 +3461,26 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"Wd" = (
+/obj/structure/reagent_dispensers/fueltank/gas/hydrogen{
+	anchored = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2;
+	layer = 3.33
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Wq" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -2675,6 +3510,19 @@
 "WP" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/hull/upper_hull/u_f_p)
+"WW" = (
+/obj/docking_port/stationary/marine_dropship/almayer_hangar_2,
+/turf/open/floor/plating,
+/area/almayer/hallways/hangar)
+"Xa" = (
+/obj/structure/foamed_metal,
+/turf/open/space/basic,
+/area/space)
+"Xb" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/surface/table/almayer,
+/turf/open/space/basic,
+/area/almayer/medical/lower_medical_lobby)
 "Xd" = (
 /turf/open/floor/almayer{
 	dir = 6;
@@ -2700,6 +3548,13 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cic)
+"XG" = (
+/obj/structure/machinery/autolathe/armylathe/full,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "orange"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "XU" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -2791,6 +3646,16 @@
 	icon_state = "blue"
 	},
 /area/almayer/command/cichallway)
+"YR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/closet/bombcloset,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "YX" = (
 /turf/open/floor/almayer/uscm/directional,
 /area/almayer/command/cic)
@@ -2809,6 +3674,24 @@
 	icon_state = "cargo"
 	},
 /area/almayer/living/cryo_cells)
+"Zk" = (
+/obj/structure/closet/secure_closet/freezer/industry,
+/obj/item/reagent_container/glass/beaker/silver,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/engineering/engineering_workshop/hangar)
 "Zn" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -2837,6 +3720,12 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/airoom)
+"Zx" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "ZC" = (
 /obj/structure/platform{
 	dir = 1
@@ -2855,6 +3744,14 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/command/cic)
+"ZF" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/emails{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "ZG" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8;
@@ -2865,6 +3762,14 @@
 	icon_state = "emerald"
 	},
 /area/almayer/command/cic)
+"ZJ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer,
+/area/almayer/living/pilotbunks)
 "ZS" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -7238,6 +8143,7 @@ Uy
 Uy
 Uy
 Uy
+Uy
 Xw
 UN
 UN
@@ -7251,7 +8157,6 @@ UN
 UN
 UN
 xy
-Uy
 Uy
 Uy
 Uy
@@ -7306,13 +8211,13 @@ tf
 pO
 EJ
 Pj
-pl
+fw
 Pj
 pl
 pl
 pl
 QA
-pl
+yj
 QA
 Yi
 Hu
@@ -7359,6 +8264,7 @@ Uy
 Uy
 Uy
 Uy
+Uy
 Xw
 tD
 Eu
@@ -7374,7 +8280,6 @@ Eu
 Eu
 tD
 xy
-Uy
 Uy
 Uy
 Uy
@@ -7429,11 +8334,11 @@ vF
 uS
 pl
 Dq
+fw
 pl
 pl
 pl
-pl
-pl
+yj
 KX
 pl
 HS
@@ -7481,22 +8386,22 @@ Uy
 Uy
 Uy
 Uy
+Uy
 LU
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+IQ
+Mo
+Mo
+IQ
+Mo
+Mo
+IQ
+sP
 Uy
 Eu
 oJ
-Uy
 Uy
 Uy
 Uy
@@ -7602,23 +8507,23 @@ Uy
 Uy
 Uy
 Uy
-Xw
+Uy
+Uy
 tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+IQ
+Mo
+Mo
+IQ
+Mo
+Mo
+IQ
+sP
 Uy
 Eu
 tD
-xy
 Uy
 Uy
 Uy
@@ -7723,23 +8628,23 @@ Uy
 Uy
 Uy
 Uy
+Uy
+Uy
 Xw
 tD
-tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+IQ
+Xa
+Xa
+IQ
+Xa
+Xa
+IQ
+sP
 Uy
 Eu
-tD
 tD
 xy
 Uy
@@ -7847,22 +8752,22 @@ UN
 UN
 tD
 tD
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
 tD
+Eu
+Uy
+Uy
+sP
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+sP
+Uy
+Uy
+Eu
 tD
 UN
 UN
@@ -7873,8 +8778,8 @@ UN
 UN
 TS
 Lg
-pQ
-aa
+TS
+xy
 aa
 aa
 aa
@@ -7969,21 +8874,23 @@ Eu
 Eu
 Eu
 Eu
+Eu
 Uy
 Uy
 Uy
+gY
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+gY
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Eu
 Eu
 Eu
 Eu
@@ -7996,8 +8903,6 @@ Eu
 Eu
 tD
 xy
-Uy
-Uy
 Uy
 Uy
 Uy
@@ -8095,13 +9000,15 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+sP
 Uy
 Uy
 Uy
@@ -8118,9 +9025,7 @@ Uy
 Uy
 Eu
 tD
-UN
 xy
-Uy
 Uy
 Uy
 Uy
@@ -8204,46 +9109,46 @@ tD
 Eu
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+Mo
+sP
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
+Tt
 Uy
 Uy
 Eu
 tD
-oJ
-Uy
-Uy
+xy
 Uy
 Uy
 Uy
@@ -8325,6 +9230,8 @@ LU
 tD
 Eu
 Uy
+sP
+sP
 Uy
 Uy
 Uy
@@ -8337,35 +9244,33 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+sP
+sP
+Mo
+IQ
+Mo
+sP
+sP
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+Tt
+Tt
 Uy
 Eu
 tD
-xy
-Uy
+oJ
 Uy
 Uy
 Uy
@@ -8447,6 +9352,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -8462,32 +9368,31 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+Tt
+Tt
+fe
 tD
-xy
+oJ
 Uy
 Uy
 Uy
@@ -8569,6 +9474,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -8584,30 +9490,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+fe
 tD
 oJ
 Uy
@@ -8691,6 +9596,7 @@ tD
 Eu
 Uy
 Uy
+sP
 Uy
 Uy
 Uy
@@ -8706,30 +9612,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 xy
@@ -8812,6 +9717,8 @@ LU
 tD
 Eu
 Uy
+sP
+sP
 Uy
 Uy
 Uy
@@ -8827,31 +9734,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -8934,6 +9839,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -8950,30 +9856,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9056,6 +9961,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9072,30 +9978,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9178,6 +10083,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9194,30 +10100,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9300,6 +10205,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9316,30 +10222,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9422,6 +10327,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9438,30 +10344,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9544,6 +10449,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9560,30 +10466,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9666,6 +10571,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9682,30 +10588,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9788,6 +10693,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9804,30 +10710,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -9910,6 +10815,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -9926,30 +10832,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10032,6 +10937,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10048,30 +10954,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10154,6 +11059,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10170,30 +11076,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10276,6 +11181,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10292,30 +11198,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10398,6 +11303,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10414,30 +11320,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10520,6 +11425,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10536,30 +11442,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10642,6 +11547,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10658,30 +11564,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10764,6 +11669,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10780,30 +11686,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
+DK
 Eu
 tD
 oJ
@@ -10886,6 +11791,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -10902,30 +11808,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11008,6 +11913,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11024,30 +11930,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11130,6 +12035,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11146,30 +12052,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11252,6 +12157,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11268,30 +12174,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11374,6 +12279,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11390,30 +12296,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11496,6 +12401,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11512,30 +12418,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11618,6 +12523,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11634,30 +12540,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
+Uz
 Eu
 tD
 oJ
@@ -11740,6 +12645,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11756,30 +12662,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+am
+am
+am
 Eu
 tD
 oJ
@@ -11862,6 +12767,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -11878,30 +12784,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -11984,6 +12889,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -12000,30 +12906,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -12106,6 +13011,7 @@ LU
 tD
 Eu
 Uy
+sP
 Uy
 Uy
 Uy
@@ -12122,30 +13028,29 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+Gl
+Oc
+Sm
 Eu
 tD
 oJ
@@ -12228,46 +13133,46 @@ LU
 tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+lQ
+Oc
+Oc
 Eu
 tD
 oJ
@@ -12350,46 +13255,46 @@ LU
 tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+gk
+Rd
+xq
+mo
+VO
+xc
+Lk
+mt
+Vj
+mt
+GG
+mM
+oA
+ef
+vi
+bP
+AU
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+tj
+Oc
 Eu
 tD
 oJ
@@ -12472,46 +13377,46 @@ LU
 tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+KR
+Rd
+Rd
+Zx
+Rd
+xc
+rr
+OH
+OH
+OH
+Rd
+Rd
+lD
+iD
+ZF
+Rd
+xc
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -12594,46 +13499,46 @@ LU
 tD
 Eu
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+gk
+Rd
+CY
+Ak
+vy
+wu
+rr
+Rd
+Rd
+Rd
+CY
+Rd
+Rd
+Rd
+Rd
+Rd
+AU
+Mo
+Mo
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Xb
+fv
 Eu
 tD
 oJ
@@ -12717,45 +13622,45 @@ tD
 Eu
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+AU
+Rd
+EN
+mq
+uU
+ZJ
+ky
+ky
+ky
+Im
+ky
+ky
+ky
+ky
+ky
+hX
+sH
+Mo
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+Oc
+Oc
+FQ
 Eu
 tD
 oJ
@@ -12840,42 +13745,42 @@ Eu
 Eu
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+KR
+gk
+gk
+AU
+Rd
+Rd
+Rd
+Rd
+Zx
+Rd
+Rd
+Rd
+Rd
+Rd
+AU
+Mo
+Mo
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
+am
 Eu
 Eu
 tD
@@ -12963,40 +13868,40 @@ tD
 Eu
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+AU
+AU
+AU
+Nz
+Nz
+fQ
+fQ
+Rd
+Rd
+yN
+hV
+VP
+Rd
+xc
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+am
 Eu
 tD
 tD
@@ -13086,38 +13991,38 @@ tD
 Eu
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+AU
+AU
+HB
+HB
+HB
+HB
+IM
+SA
+Pb
+de
+MY
+Rd
+AU
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 tD
@@ -13207,39 +14112,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+sP
+sP
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13285,11 +14190,11 @@ Eu
 Uy
 Uy
 IQ
-Uy
-Uy
+Mo
+Mo
 IQ
-Uy
-Uy
+Mo
+Mo
 IQ
 Uy
 Uy
@@ -13329,39 +14234,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13407,11 +14312,11 @@ Uy
 Uy
 Uy
 IQ
-Uy
-Uy
+Mo
+Mo
 IQ
-Uy
-Uy
+Mo
+Mo
 IQ
 Uy
 Uy
@@ -13451,39 +14356,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13528,13 +14433,13 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+IQ
+Xa
+Xa
+IQ
+Xa
+Xa
+IQ
 Uy
 Uy
 Uy
@@ -13573,39 +14478,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13695,39 +14600,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13817,39 +14722,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -13939,39 +14844,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14061,39 +14966,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14183,39 +15088,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+sP
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14305,39 +15210,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
+sP
+Mo
+IQ
+Mo
 Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14427,39 +15332,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
 Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Mo
+IQ
+Mo
+sP
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14549,39 +15454,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
 Uy
+Mo
+IQ
+Mo
 Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14671,39 +15576,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
 Uy
+Mo
+IQ
+Mo
 Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14793,39 +15698,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
 Uy
+Mo
+IQ
+Mo
 Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -14915,39 +15820,39 @@ Uy
 LU
 tD
 Eu
+qh
+qh
+qh
+JH
+JH
+JH
+JH
+qh
+qh
+qh
+qh
+qh
+qh
+mI
 Uy
+Mo
+IQ
+Mo
 Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
+Oc
 Eu
 tD
 oJ
@@ -15037,39 +15942,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+Ll
+JI
+Ll
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15159,39 +16064,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15281,39 +16186,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+WW
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15403,39 +16308,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-dn
-dn
-dn
-dn
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15525,39 +16430,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15647,39 +16552,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15769,39 +16674,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -15891,39 +16796,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16013,39 +16918,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16135,39 +17040,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16257,39 +17162,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16379,39 +17284,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16501,39 +17406,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+JI
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16623,39 +17528,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+JI
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16745,39 +17650,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16867,39 +17772,39 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ru
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -16990,37 +17895,37 @@ LU
 tD
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 tD
@@ -17113,35 +18018,35 @@ IL
 tD
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
+gX
 Eu
 tD
 tD
@@ -17236,33 +18141,33 @@ Vr
 tD
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 tD
@@ -17358,33 +18263,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -17480,33 +18385,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -17602,33 +18507,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -17724,33 +18629,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -17846,33 +18751,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+JI
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -17968,33 +18873,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+ir
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -18090,33 +18995,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ix
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -18212,33 +19117,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+ix
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -18334,33 +19239,33 @@ Uy
 LU
 tD
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 Eu
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+hF
+MX
+hy
+cg
+Hi
+EI
+hF
 Eu
 Eu
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+gX
+gX
+gX
+gX
+gX
+gX
+gX
 Eu
 tD
 oJ
@@ -18466,12 +19371,12 @@ Eu
 tD
 IL
 tD
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
+hF
+au
+au
+jY
+au
+Rw
 Eu
 tD
 tD
@@ -18590,9 +19495,9 @@ Uy
 Vr
 tD
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 tD
 KY
@@ -18712,9 +19617,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -18834,9 +19739,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -18956,9 +19861,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -19078,9 +19983,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+dd
+Go
+gr
 Eu
 oJ
 Uy
@@ -19199,11 +20104,11 @@ Uh
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Eu
+Mj
+au
+jY
+au
+Mj
 oJ
 Uy
 Uy
@@ -19321,11 +20226,11 @@ Uh
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Eu
+Mj
+au
+jY
+au
+Mj
 oJ
 Uy
 Uy
@@ -19443,11 +20348,11 @@ Uh
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Eu
+Mj
+au
+jY
+au
+Mj
 oJ
 Uy
 Uy
@@ -19566,9 +20471,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -19688,9 +20593,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -19810,9 +20715,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+SU
 Eu
 oJ
 Uy
@@ -19932,9 +20837,9 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
+au
+jY
+au
 Eu
 oJ
 Uy
@@ -20054,9 +20959,9 @@ aa
 aa
 LU
 Eu
-aa
-aa
-aa
+au
+jY
+au
 Eu
 oJ
 aa
@@ -20175,11 +21080,11 @@ pQ
 aa
 Xw
 Eu
-aa
-aa
-aa
-aa
-aa
+Ss
+au
+jY
+au
+YR
 Eu
 xy
 aa
@@ -20296,13 +21201,13 @@ Uy
 Uh
 Xw
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Bf
+au
+au
+jY
+au
+mx
+nL
 Eu
 xy
 pQ
@@ -20417,15 +21322,15 @@ Uy
 Uy
 Xw
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+uu
+au
+au
+au
+jY
+au
+gy
+kj
+vd
 Eu
 xy
 aa
@@ -20539,21 +21444,21 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+IT
+au
+au
+au
+jY
+au
+re
+re
+re
 Eu
 oJ
 Uy
-aa
-aa
-aa
+Uy
+Uy
+Uy
 aa
 aa
 aa
@@ -20661,15 +21566,15 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Ky
+au
+au
+au
+jY
+au
+BO
+nw
+hG
 Eu
 oJ
 Uy
@@ -20782,17 +21687,17 @@ Uy
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
+Mj
+xa
+ph
+ph
+tJ
+wr
+gr
+re
+re
+re
+Mj
 oJ
 Uy
 Uy
@@ -20904,17 +21809,17 @@ Uy
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
+Mj
+iH
+au
+au
+au
+au
+au
+Wd
+nt
+Ce
+Mj
 oJ
 Uy
 Uy
@@ -21026,17 +21931,17 @@ Uy
 Uy
 Uy
 LU
-Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Eu
+Mj
+GP
+au
+au
+nR
+au
+au
+au
+au
+qy
+Mj
 oJ
 Uy
 Uy
@@ -21149,15 +22054,15 @@ Uy
 Uy
 Vr
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+XG
+au
+au
+Ro
+au
+au
+au
+au
+Lw
 Eu
 KY
 Uy
@@ -21271,15 +22176,15 @@ Uy
 Uy
 LU
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+op
+au
+au
+Ro
+au
+au
+au
+au
+FO
 Eu
 oJ
 Uy
@@ -21393,15 +22298,15 @@ Uy
 Uy
 Vr
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Pi
+au
+au
+Ro
+au
+au
+au
+au
+jo
 Eu
 KY
 Uy
@@ -21516,13 +22421,13 @@ Uy
 Uy
 Vr
 Eu
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
-Uy
+Ro
+Ro
+zk
+yf
+Zk
+Ku
+qk
 Eu
 KY
 Uy
@@ -21638,13 +22543,13 @@ Uy
 Uy
 Uy
 Vr
-Eu
-Eu
-Eu
-Eu
-Eu
-Eu
-Eu
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 KY
 Uy
 Uy
