@@ -24,8 +24,10 @@
 	icon_state = "shuttle"
 	fake_zlevel = 1
 
-/area/shuttle/sulaco/elevator_cen1/away
-	icon_state = "away1"
+/area/shuttle/sulaco/elevator_cen1/elevator
+	icon_state = "lifeboat"
+	requires_power = FALSE
+	lighting_use_dynamic = FALSE
 /area/shuttle/sulaco/elevator_cen1/lowerdeck
 	name = "\improper Central Elevator 1"
 	icon_state = "shuttle"
@@ -37,8 +39,10 @@
 	icon_state = "shuttle"
 	fake_zlevel = 1
 
-/area/shuttle/sulaco/elevator_cen2/away
-	icon_state = "away2"
+/area/shuttle/sulaco/elevator_cen2/elevator
+	icon_state = "lifeboat"
+	requires_power = FALSE
+	lighting_use_dynamic = FALSE
 /area/shuttle/sulaco/elevator_cen2/lowerdeck
 	name = "\improper Central Elevator 2"
 	icon_state = "shuttle"
@@ -64,27 +68,6 @@
 	icon_state = "shuttle"
 	fake_zlevel = 3
 
-/obj/structure/machinery/computer/shuttle_control/sulaco/cen1
-	name = "Elevator Console"
-	icon = 'icons/obj/structures/machinery/computer.dmi'
-	icon_state = "supply"
-	unslashable = TRUE
-	unacidable = TRUE
-	exproof = 1
-	density = TRUE
-	req_access = null
-	shuttle_tag = "Central 1"
-
-/obj/structure/machinery/computer/shuttle_control/sulaco/cen2
-	name = "Elevator Console"
-	icon = 'icons/obj/structures/machinery/computer.dmi'
-	icon_state = "supply"
-	unslashable = TRUE
-	unacidable = TRUE
-	exproof = 1
-	density = TRUE
-	req_access = null
-	shuttle_tag = "Central 2"
 /obj/structure/machinery/computer/shuttle_control/sulaco/hangar
 	name = "Elevator Console"
 	icon = 'icons/obj/structures/machinery/computer.dmi'
@@ -270,6 +253,9 @@
 	name = "\improper Brig Lobby"
 	icon_state = "brig"
 
+/area/sulaco/shipboard/checkpoint
+	name = "\improper Security Checkpoint"
+	icon_state = "brig"
 /area/sulaco/shipboard/brig/armory
 	name = "\improper Brig Armory"
 	icon_state = "brig"
