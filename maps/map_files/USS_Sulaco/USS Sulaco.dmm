@@ -1427,6 +1427,10 @@
 	icon_state = "emerald"
 	},
 /area/almayer/living/briefing)
+"li" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central1/upperdeck,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen1/upperdeck)
 "ll" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/almayer,
@@ -1827,6 +1831,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"oc" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central2/upperdeck,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen2/upperdeck)
 "of" = (
 /obj/structure/largecrate/random/barrel/green,
 /obj/structure/largecrate/random/barrel/green,
@@ -2265,6 +2273,10 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"re" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central1/lowerdeck,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen1/lowerdeck)
 "rf" = (
 /turf/open/space,
 /area/sulaco/shipboard/brig)
@@ -2832,6 +2844,10 @@
 	icon_state = "redfull"
 	},
 /area/almayer/living/briefing)
+"wd" = (
+/obj/docking_port/stationary/sulaco_central1/upperdeck,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen1/upperdeck)
 "wg" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/keycard_auth,
@@ -3753,6 +3769,10 @@
 	icon_state = "blue"
 	},
 /area/sulaco/living/numbertwobunks)
+"DC" = (
+/obj/docking_port/stationary/sulaco_central1/lowerdeck,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen1/lowerdeck)
 "DK" = (
 /turf/open/space/basic,
 /area/almayer/living/briefing)
@@ -4253,6 +4273,10 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"HD" = (
+/obj/docking_port/stationary/sulaco_central2/upperdeck,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen2/upperdeck)
 "HE" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -4942,6 +4966,10 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"Nx" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central2/lowerdeck,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "Nz" = (
 /obj/effect/landmark/start/crew_chief,
 /turf/open/floor/almayer,
@@ -6544,6 +6572,10 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"ZM" = (
+/obj/docking_port/stationary/sulaco_central2/lowerdeck,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "ZP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -17709,14 +17741,14 @@ Xv
 Xv
 Xv
 Xv
-Xv
+wd
 Eu
 gY
 gY
 gY
 gY
 gY
-gY
+HD
 tJ
 Uy
 Uy
@@ -17766,14 +17798,14 @@ hP
 hP
 hP
 hP
-hP
+DC
 Eu
 TP
 TP
 TP
 TP
 TP
-TP
+ZM
 Gr
 oJ
 Uy
@@ -18562,10 +18594,10 @@ Og
 Og
 yG
 yG
-Og
+li
 Og
 Eu
-tJ
+oc
 tJ
 OL
 OL
@@ -18619,11 +18651,11 @@ NG
 NG
 qR
 qR
-NG
+re
 NG
 Eu
 Gr
-Gr
+Nx
 Yk
 Yk
 Gr

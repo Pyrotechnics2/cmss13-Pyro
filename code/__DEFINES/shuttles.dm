@@ -104,10 +104,10 @@
 #define STAT_TRIJENT_ENGI "trigent_engineering"
 #define STAT_TRIJENT_OMEGA "trigent_omega"
 
-#define MOBILE_SULACO_CEN1_ELEVATOR "sulacocen"
+#define MOBILE_SULACO_CEN1_ELEVATOR "sulacocen1"
 #define STAT_SULACO_CEN1UPR "sulaco_cen1_upper"
 #define STAT_SULACO_CEN1LWR "sulaco_cen1_lower"
-#define MOBILE_SULACO_CEN2_ELEVATOR "Sulacocen"
+#define MOBILE_SULACO_CEN2_ELEVATOR "sulacocen2"
 #define STAT_SULACO_CEN2UPR "sulaco_cen2_upper"
 #define STAT_SULACO_CENLWR "sulaco_cen2_lower"
 

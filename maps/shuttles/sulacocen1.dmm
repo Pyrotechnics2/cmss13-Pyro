@@ -69,11 +69,13 @@
 /turf/open/space/basic,
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "R" = (
+/obj/docking_port/mobile/sulaco_central1,
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "S" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent,
 /turf/closed/shuttle/elevator/button/arrivals,
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "T" = (
