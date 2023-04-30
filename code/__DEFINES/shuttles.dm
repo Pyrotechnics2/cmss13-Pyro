@@ -109,7 +109,7 @@
 #define STAT_SULACO_CEN1LWR "sulaco_cen1_lower"
 #define MOBILE_SULACO_CEN2_ELEVATOR "sulacocen2"
 #define STAT_SULACO_CEN2UPR "sulaco_cen2_upper"
-#define STAT_SULACO_CENLWR "sulaco_cen2_lower"
+#define STAT_SULACO_CEN2LWR "sulaco_cen2_lower"
 
 #define MOBILE_SHUTTLE_LIFEBOAT_PORT "lifeboat-port"
 #define MOBILE_SHUTTLE_LIFEBOAT_STARBOARD "lifeboat-starboard"
