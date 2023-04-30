@@ -5,8 +5,7 @@
 	icon_state = "elevator_screen"
 	shuttleId = MOBILE_SULACO_CEN1_ELEVATOR
 	is_call = TRUE
-	var/dockId
-	var/datum/elevator/destination/site
+
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/get_landing_zones()
 	return list(SSshuttle.getDock(dockId))
@@ -28,12 +27,7 @@
 	density = FALSE
 	req_access = null
 	needs_power = TRUE
-	var/is_call = FALSE
 
-/obj/structure/machinery/computer/shuttle/elevator_controller/proc/get_landing_zones()
-	. = list()
-	for(var/obj/docking_port/stationary/sulaco_central1/elev in SSshuttle.stationary)
-		. += list(elev)
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/tgui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
