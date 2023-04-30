@@ -5,47 +5,47 @@
 	dir = 1
 	},
 /turf/open/shuttle/lifeboat,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "d" = (
 /turf/closed/shuttle/elevator{
 	dir = 5
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "f" = (
 /turf/closed/shuttle/elevator{
 	dir = 9
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "h" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "j" = (
 /turf/closed/shuttle/elevator,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "o" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
 	pixel_x = 2
 	},
 /turf/open/shuttle/lifeboat,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "r" = (
 /turf/closed/wall/r_wall/elevator/arrivals,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "s" = (
 /turf/open/shuttle/elevator/grating,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "w" = (
 /turf/closed/shuttle/elevator{
 	dir = 4
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "C" = (
 /turf/closed/shuttle/elevator{
 	dir = 8
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "D" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -55,33 +55,33 @@
 	dir = 4
 	},
 /turf/open/shuttle/lifeboat,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "J" = (
 /turf/closed/shuttle/elevator{
 	dir = 6
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "Q" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
 	id = "west"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "R" = (
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "S" = (
 /turf/closed/shuttle/elevator/button/arrivals,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "T" = (
 /turf/open/shuttle/lifeboat,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 "W" = (
 /turf/closed/wall/r_wall/elevator/gears,
-/area/space)
+/area/shuttle/sulaco/elevator_cen1/elevator)
 
 (1,1,1) = {"
 f
