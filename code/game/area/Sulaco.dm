@@ -25,7 +25,7 @@
 	fake_zlevel = 1
 
 /area/shuttle/sulaco/elevator_cen1/elevator
-	icon_state = "lifeboat"
+	icon_state = "away1"
 	requires_power = FALSE
 	lighting_use_dynamic = FALSE
 /area/shuttle/sulaco/elevator_cen1/lowerdeck
@@ -40,7 +40,7 @@
 	fake_zlevel = 1
 
 /area/shuttle/sulaco/elevator_cen2/elevator
-	icon_state = "lifeboat"
+	icon_state = "away1"
 	requires_power = FALSE
 	lighting_use_dynamic = FALSE
 /area/shuttle/sulaco/elevator_cen2/lowerdeck
