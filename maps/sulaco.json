@@ -2,7 +2,7 @@
     "map_name": "USS Sulaco",
     "map_path": "map_files/USS_Sulaco",
     "map_file": "USS_Sulaco.dmm",
-    "webmap_url": "Sulaco",
-    "traits": [{"Marine Main Ship": false}],
-    "nightmare_path": "maps/Nightmare/maps/USS_Sulaco/"
+    "traits": [{"Marine Main Ship": true}],
+    "nightmare_path": "maps/Nightmare/maps/USS_Sulaco/",
+    "disable_ship_map": true
 }
