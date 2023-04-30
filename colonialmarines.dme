@@ -2114,6 +2114,7 @@
 #include "code\modules\shuttle\vehicle_elevator.dm"
 #include "code\modules\shuttle\computers\dropship_computer.dm"
 #include "code\modules\shuttle\computers\escape_pod_computer.dm"
+#include "code\modules\shuttle\computers\sulaco_elevator2_control.dm"
 #include "code\modules\shuttle\computers\trijent_elevator_control.dm"
 #include "code\modules\shuttle\computers\sulaco_elevator_control.dm"
 #include "code\modules\shuttle\shuttles\dropship.dm"
