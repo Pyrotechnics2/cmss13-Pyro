@@ -58,10 +58,6 @@
 	},
 /turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen1/elevator)
-"I" = (
-/obj/docking_port/mobile/sulaco/sulaco_central1,
-/turf/open/shuttle/lifeboat,
-/area/shuttle/sulaco/elevator_cen1/elevator)
 "J" = (
 /turf/closed/shuttle/elevator{
 	dir = 6
@@ -79,12 +75,15 @@
 /turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "R" = (
+/obj/docking_port/mobile/sulaco/sulaco_elevator1,
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "S" = (
-/obj/structure/machinery/computer/shuttle_control/sulaco/cen1,
+/obj/structure/machinery/computer/shuttle/elevator_controller{
+	shuttleId = "sulacocen1"
+	},
 /turf/closed/shuttle/elevator/button/arrivals,
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "T" = (
@@ -107,7 +106,7 @@ C
 T
 T
 T
-I
+T
 W
 "}
 (3,1,1) = {"
