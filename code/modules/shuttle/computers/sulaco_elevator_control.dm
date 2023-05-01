@@ -1,20 +1,41 @@
-// Central 2 setup
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call
 	name = "\improper Elevator Call"
 	desc = "Control panel for the elevator"
 	icon = 'icons/obj/structures/machinery/computer.dmi'
 	icon_state = "elevator_screen"
-	shuttleId = MOBILE_SULACO_CEN2_ELEVATOR
+	shuttleId = MOBILE_SULACO_ELEVATOR1
 	is_call = TRUE
+	var/dockId1
+	var/datum/elevator/destination/site1
 
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call
+	name = "\improper Elevator Call"
+	desc = "Control panel for the elevator"
+	icon = 'icons/obj/structures/machinery/computer.dmi'
+	icon_state = "elevator_screen"
+	shuttleId = MOBILE_SULACO_ELEVATOR2
+	is_call = TRUE
+	var/dockId2
+	var/datum/elevator/destination/site2
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/get_landing_zones()
-	return list(SSshuttle.getDock(dockId))
-/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central2/upperdeck
-	dockId = STAT_SULACO_CEN2UPR
+	return list(SSshuttle.getDock(dockId1))
 
-/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco_central2/lowerdeck
-	dockId = STAT_SULACO_CEN2LWR
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/get_landing_zones()
+	return list(SSshuttle.getDock(dockId2))
+
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/upper1
+	dockId1 = STAT_SULACO_UPR1
+
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/lower1
+	dockId1 = STAT_SULACO_LWR1
+
+
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/upper2
+	dockId2 = STAT_SULACO_UPR2
+
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/lower2
+	dockId2 = STAT_SULACO_LWR2
 
 /obj/structure/machinery/computer/shuttle/elevator_controller
 	name = "\improper Elevator Panel"
@@ -28,6 +49,12 @@
 	density = FALSE
 	req_access = null
 	needs_power = TRUE
+
+
+/obj/structure/machinery/computer/shuttle/elevator_controller/sulaco/get_landing_zones()
+	. = list()
+	for(var/obj/docking_port/stationary/sulaco/elev in SSshuttle.stationary)
+		. += list(elev)
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/tgui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
@@ -46,8 +73,8 @@
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/ui_data(mob/user)
 	. = ..()
-	var/obj/docking_port/mobile/shuttle = SSshuttle.getShuttle(shuttleId)
-	var/obj/docking_port/stationary/dockedAt = shuttle.get_docked()
+	var/obj/docking_port/mobile/sulaco/shuttle = SSshuttle.getShuttle(shuttleId)
+	var/obj/docking_port/stationary/sulaco/dockedAt = shuttle.get_docked()
 	.["docked_at"] = list("id"= dockedAt.id, "name" = dockedAt.name)
 	.["destination"] = shuttle.destination
 	.["mode"] = shuttle.mode
@@ -55,10 +82,10 @@
 
 /obj/structure/machinery/computer/shuttle/elevator_controller/ui_static_data(mob/user)
 	. = ..()
-	var/obj/docking_port/mobile/shuttle = SSshuttle.getShuttle(shuttleId)
+	var/obj/docking_port/mobile/sulaco/shuttle = SSshuttle.getShuttle(shuttleId)
 	var/list/stops = get_landing_zones()
 	.["destinations"] = list()
-	for(var/obj/docking_port/stationary/dock as anything in stops)
+	for(var/obj/docking_port/stationary/sulaco/elevator1/dock as anything in stops)
 		var/list/dockinfo = list(
 			"id" = dock.id,
 			"name" = dock.name,
@@ -86,13 +113,14 @@
 		if("move")
 			if(shuttle.mode != SHUTTLE_IDLE)
 				return
-			var/dockId = params["target"]
-			if(!dockId)
+			var/dockId1 = params["target"]
+			var/dockId2 = params["target"]
+			if(!dockId1 || !dockId2)
 				return
 			var/obj/docking_port/stationary/dockedAt = shuttle.get_docked()
-			if(dockedAt.id == dockId)
+			if(dockedAt.id == (dockId1 || dockId2))
 				return
-			SSshuttle.moveShuttle(shuttle.id, dockId, TRUE)
+			SSshuttle.moveShuttle(shuttle.id, (dockId1 || dockId2), TRUE)
 			return TRUE
 		if("button-push")
 			playsound(loc, get_sfx("terminal_button"), KEYBOARD_SOUND_VOLUME * 2, 1)

@@ -17,7 +17,7 @@
 	},
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "h" = (
-/obj/structure/window/framed/almayer{
+/obj/structure/shuttle/window{
 	indestructible = 1
 	},
 /turf/open/shuttle/lifeboat,
@@ -70,18 +70,18 @@
 "Q" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
-	id = "west"
+	id = "east"
 	},
 /turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "R" = (
-/obj/docking_port/mobile/sulaco/sulaco_elevator1,
+/obj/docking_port/mobile/sulaco/elevator1,
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
 /area/shuttle/sulaco/elevator_cen1/elevator)
 "S" = (
-/obj/structure/machinery/computer/shuttle/elevator_controller{
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco{
 	shuttleId = "sulacocen1"
 	},
 /turf/closed/shuttle/elevator/button/arrivals,

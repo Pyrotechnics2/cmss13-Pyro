@@ -1081,6 +1081,9 @@
 	icon_state = "blue"
 	},
 /area/sulaco/command/cic)
+"im" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/medical/medical_science)
 "ir" = (
 /turf/open/floor/plating,
 /area/almayer/hallways/hangar)
@@ -1416,9 +1419,7 @@
 	},
 /area/almayer/living/briefing)
 "li" = (
-/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call{
-	shuttleId = "sulacocen1"
-	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/upper1,
 /turf/closed/wall/almayer/outer,
 /area/shuttle/sulaco/elevator_cen1/upperdeck)
 "ll" = (
@@ -1852,6 +1853,10 @@
 "ov" = (
 /turf/open/floor/almayer,
 /area/almayer/hallways/repair_bay)
+"oy" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/lower2,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "oz" = (
 /turf/closed/wall/almayer/outer,
 /area/sulaco/command/cic)
@@ -2260,9 +2265,7 @@
 	},
 /area/almayer/hallways/hangar)
 "re" = (
-/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call{
-	shuttleId = "sulacocen1"
-	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/lower1,
 /turf/closed/wall/almayer/outer,
 /area/shuttle/sulaco/elevator_cen1/lowerdeck)
 "rm" = (
@@ -2512,6 +2515,10 @@
 	icon_state = "sterile"
 	},
 /area/sulaco/living/commandbunks)
+"to" = (
+/obj/docking_port/stationary/sulaco/lowerdeck2,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "tq" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/bed/chair/comfy/charlie{
@@ -2732,6 +2739,9 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"vo" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/medical/lower_medical_lobby)
 "vq" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -2836,10 +2846,7 @@
 	},
 /area/almayer/living/briefing)
 "wd" = (
-/obj/docking_port/stationary/sulaco/upper1{
-	airlock_exit = east;
-	airlock_area = area/shuttles/sulaco/elevator_cen1/upperdeck
-	},
+/obj/docking_port/stationary/sulaco/upperdeck1,
 /turf/open/gm/empty,
 /area/shuttle/sulaco/elevator_cen1/upperdeck)
 "wg" = (
@@ -3448,9 +3455,6 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/engineering/engineering_workshop/hangar)
-"Br" = (
-/turf/open/floor/almayer_hull,
-/area/shuttle/sulaco/elevator_cen1/lowerdeck)
 "Bv" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -3472,6 +3476,10 @@
 	icon_state = "cargo"
 	},
 /area/almayer/engineering/engineering_workshop/hangar)
+"BB" = (
+/obj/docking_port/stationary/sulaco/upperdeck2,
+/turf/open/gm/empty,
+/area/shuttle/sulaco/elevator_cen2/upperdeck)
 "BE" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment,
@@ -3769,10 +3777,7 @@
 	},
 /area/sulaco/living/numbertwobunks)
 "DC" = (
-/obj/docking_port/stationary/sulaco/lower1{
-	airlock_area = area/shuttles/sulaco/elevator_cen1/lowerdeck;
-	airlock_exit = east
-	},
+/obj/docking_port/stationary/sulaco/lowerdeck1,
 /turf/open/gm/empty,
 /area/shuttle/sulaco/elevator_cen1/lowerdeck)
 "DT" = (
@@ -4148,11 +4153,13 @@
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
 "GT" = (
-/obj/structure/window/framed/almayer/hull,
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
 	id = null;
 	name = "\improper Elevator Lock"
+	},
+/obj/structure/window/framed/almayer{
+	indestructible = 1
 	},
 /turf/open/floor/almayer,
 /area/shuttle/sulaco/elevator_cen2/upperdeck)
@@ -4834,6 +4841,10 @@
 	},
 /turf/closed/wall/almayer/reinforced,
 /area/sulaco/living/numbertwobunks)
+"Md" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco/upper2,
+/turf/closed/wall/almayer/outer,
+/area/shuttle/sulaco/elevator_cen2/upperdeck)
 "Me" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -5207,6 +5218,9 @@
 	id = null;
 	name = "\improper Elevator Lock"
 	},
+/obj/structure/window/framed/almayer{
+	indestructible = 1
+	},
 /turf/open/floor/almayer,
 /area/shuttle/sulaco/elevator_cen1/upperdeck)
 "Ph" = (
@@ -5280,9 +5294,6 @@
 	},
 /turf/open/floor/wood/ship,
 /area/sulaco/command/corporateliason)
-"PQ" = (
-/turf/open/floor/almayer_hull,
-/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "PR" = (
 /obj/structure/reagent_dispensers/ethanoltank{
 	anchored = 1
@@ -5427,6 +5438,9 @@
 	dir = 4
 	},
 /area/almayer/living/briefing)
+"QJ" = (
+/turf/closed/wall/almayer/outer,
+/area/sulaco/shipboard/brig)
 "QO" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 4
@@ -6552,6 +6566,9 @@
 	icon_state = "emerald"
 	},
 /area/sulaco/command/cic)
+"ZI" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/medical/containment/cell)
 "ZJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -9060,7 +9077,7 @@ aa
 aa
 oJ
 Uy
-tD
+Eu
 oz
 wy
 wy
@@ -9068,7 +9085,7 @@ wy
 wy
 wy
 oz
-tD
+Eu
 Uy
 LU
 aa
@@ -9547,7 +9564,7 @@ oJ
 aa
 aa
 oJ
-LU
+Eu
 oz
 mH
 pl
@@ -9557,7 +9574,7 @@ Dm
 pl
 MV
 oz
-oJ
+Eu
 LU
 aa
 aa
@@ -10907,7 +10924,7 @@ za
 eq
 Bj
 Eu
-tD
+Eu
 tD
 xy
 aa
@@ -11030,7 +11047,7 @@ DX
 Fd
 hA
 HR
-tD
+Eu
 tD
 xy
 aa
@@ -11123,7 +11140,7 @@ aa
 aa
 Xw
 tD
-tD
+Eu
 kJ
 kJ
 oE
@@ -11153,7 +11170,7 @@ Mb
 hA
 hA
 HR
-tD
+Eu
 tD
 xy
 aa
@@ -11244,7 +11261,7 @@ aa
 aa
 Xw
 tD
-tD
+Eu
 kJ
 NH
 cy
@@ -11276,7 +11293,7 @@ hA
 jR
 CO
 Tv
-tD
+Eu
 tD
 xy
 aa
@@ -14813,7 +14830,7 @@ sN
 sN
 sN
 sN
-sN
+QJ
 Eu
 tD
 KY
@@ -14904,9 +14921,9 @@ aa
 aa
 aa
 LU
-tD
-mg
-mg
+Eu
+ZI
+ZI
 mg
 DT
 DT
@@ -14934,7 +14951,7 @@ sN
 sN
 sN
 sN
-sN
+QJ
 Eu
 tD
 oJ
@@ -15030,7 +15047,7 @@ IL
 IL
 Eu
 Eu
-DT
+im
 DT
 DT
 DT
@@ -15049,7 +15066,7 @@ Ft
 Hr
 ZZ
 IQ
-sN
+QJ
 Eu
 Eu
 Eu
@@ -15170,7 +15187,7 @@ nf
 Py
 WP
 ZZ
-IQ
+Eu
 Eu
 tD
 IL
@@ -15275,7 +15292,7 @@ aa
 aa
 LU
 Eu
-DT
+im
 DT
 DT
 DT
@@ -15402,7 +15419,7 @@ Eu
 Eu
 Eu
 Eu
-sP
+Eu
 lO
 Dc
 OX
@@ -17110,6 +17127,7 @@ Eu
 Eu
 Eu
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -17121,8 +17139,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 Eu
 Eu
@@ -17221,6 +17238,7 @@ Xw
 UN
 tD
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -17254,8 +17272,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 tD
 UN
@@ -17342,6 +17359,7 @@ Uy
 LU
 tD
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -17377,8 +17395,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 tD
 oJ
@@ -17501,7 +17518,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 xy
@@ -17624,7 +17641,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 xy
@@ -17654,7 +17671,7 @@ Uy
 Uy
 Uy
 Xw
-Br
+NG
 NG
 NG
 Dt
@@ -17668,7 +17685,7 @@ iO
 iO
 Gr
 Gr
-PQ
+Gr
 xy
 Uy
 Uy
@@ -17706,7 +17723,7 @@ Uy
 Uy
 Uy
 LU
-tD
+Eu
 Eu
 Mo
 Mo
@@ -17732,7 +17749,7 @@ gY
 gY
 gY
 gY
-gY
+BB
 tJ
 Mo
 Mo
@@ -17789,7 +17806,7 @@ TP
 TP
 TP
 TP
-TP
+to
 Gr
 oJ
 Uy
@@ -17869,7 +17886,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 aa
@@ -18140,7 +18157,7 @@ UN
 UN
 UN
 tD
-tD
+Eu
 Eu
 NG
 hP
@@ -18279,7 +18296,7 @@ TP
 TP
 TP
 Gr
-Mo
+Eu
 Eu
 Eu
 Eu
@@ -18375,7 +18392,7 @@ Xw
 UN
 tD
 Eu
-yI
+Eu
 yI
 yI
 yI
@@ -18411,7 +18428,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 xy
@@ -18496,7 +18513,7 @@ Uy
 LU
 tD
 Eu
-iZ
+Eu
 iZ
 sP
 sP
@@ -18534,7 +18551,7 @@ Tt
 Tt
 Tt
 Mo
-Mo
+Eu
 Eu
 tD
 xy
@@ -18582,7 +18599,7 @@ li
 Og
 Eu
 tJ
-tJ
+Md
 OL
 OL
 tJ
@@ -18639,7 +18656,7 @@ re
 NG
 Eu
 Gr
-Gr
+oy
 Yk
 Yk
 Gr
@@ -18983,7 +19000,7 @@ Uy
 Xw
 tD
 Eu
-iZ
+Eu
 yI
 Tt
 KU
@@ -19023,7 +19040,7 @@ KU
 KU
 KU
 KU
-KU
+fe
 Eu
 tD
 xy
@@ -22993,7 +23010,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 aa
@@ -23076,6 +23093,7 @@ Vr
 tD
 Eu
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -23112,8 +23130,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 Eu
 tD
@@ -23132,7 +23149,7 @@ Vr
 tD
 Eu
 Eu
-yI
+Eu
 yI
 yI
 AU
@@ -23169,10 +23186,10 @@ RV
 Vc
 wK
 am
-am
+vo
 Eu
 Eu
-tD
+Eu
 tD
 KY
 Uy
@@ -23199,6 +23216,7 @@ Vr
 tD
 tD
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -23233,8 +23251,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 tD
 tD
@@ -23255,7 +23272,7 @@ Vr
 tD
 tD
 Eu
-iZ
+Eu
 yI
 iZ
 AU
@@ -23290,7 +23307,7 @@ am
 Fc
 JU
 id
-am
+vo
 Eu
 tD
 tD
@@ -23322,7 +23339,7 @@ Vr
 IL
 tD
 Eu
-Mo
+Eu
 Mo
 Mo
 Mo
@@ -23378,7 +23395,7 @@ Vr
 IL
 tD
 Eu
-dV
+ek
 dV
 dV
 dV
@@ -26526,7 +26543,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 Eu
 tD
@@ -26647,7 +26664,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 tD
 tD
@@ -26736,7 +26753,8 @@ Uy
 Uy
 Uy
 Xw
-tD
+Eu
+Eu
 Eu
 Mo
 Mo
@@ -26767,8 +26785,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 tD
 tD
@@ -27834,9 +27851,9 @@ Uy
 Uy
 LU
 tD
-tD
 Eu
-Mo
+Eu
+Eu
 Mo
 Mo
 Mo
@@ -27961,7 +27978,7 @@ tD
 Eu
 Eu
 Eu
-Mo
+Eu
 Mo
 Mo
 Mo
@@ -28084,6 +28101,7 @@ tD
 tD
 tD
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -28108,8 +28126,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 tD
 oJ
@@ -28207,6 +28224,7 @@ IL
 IL
 tD
 Eu
+Eu
 Mo
 Mo
 Mo
@@ -28226,8 +28244,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 Eu
 Eu
@@ -28714,7 +28731,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 oJ
 Uy
@@ -28832,7 +28849,7 @@ Mo
 Mo
 Mo
 Mo
-Mo
+Eu
 Eu
 Eu
 Eu
@@ -29062,8 +29079,7 @@ Uy
 Uy
 LU
 Eu
-Mo
-Mo
+Eu
 Mo
 Mo
 Mo
@@ -29071,11 +29087,12 @@ Eu
 Eu
 Eu
 Eu
+Eu
+Eu
 Mo
 Mo
 Mo
-Mo
-Mo
+Eu
 Eu
 KY
 Uy

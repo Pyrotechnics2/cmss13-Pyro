@@ -17,17 +17,13 @@
 	},
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "h" = (
-/obj/structure/window/framed/almayer{
+/obj/structure/shuttle/window{
 	indestructible = 1
 	},
 /turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "j" = (
 /turf/closed/shuttle/elevator,
-/area/shuttle/sulaco/elevator_cen2/elevator)
-"k" = (
-/obj/docking_port/mobile/sulaco/sulaco_central2,
-/turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "o" = (
 /obj/effect/decal/warning_stripes{
@@ -74,17 +70,18 @@
 "Q" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
-	id = "west"
+	id = "east"
 	},
 /turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "R" = (
+/obj/docking_port/mobile/sulaco/elevator2,
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "S" = (
-/obj/structure/machinery/computer/shuttle_control/sulaco/cen2,
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/sulaco,
 /turf/closed/shuttle/elevator/button/arrivals,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "T" = (
@@ -107,7 +104,7 @@ C
 T
 T
 T
-k
+T
 W
 "}
 (3,1,1) = {"
