@@ -17,5 +17,5 @@ map almayer
 endmap
 
 map sulaco
-	disabled
+
 endmap

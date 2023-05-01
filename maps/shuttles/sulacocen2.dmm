@@ -17,11 +17,17 @@
 	},
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "h" = (
-/obj/structure/window/framed/almayer/hull,
-/turf/open/space/basic,
+/obj/structure/window/framed/almayer{
+	indestructible = 1
+	},
+/turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "j" = (
 /turf/closed/shuttle/elevator,
+/area/shuttle/sulaco/elevator_cen2/elevator)
+"k" = (
+/obj/docking_port/mobile/sulaco/sulaco_central2,
+/turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "o" = (
 /obj/effect/decal/warning_stripes{
@@ -40,6 +46,10 @@
 /turf/closed/shuttle/elevator{
 	dir = 4
 	},
+/area/shuttle/sulaco/elevator_cen2/elevator)
+"A" = (
+/obj/structure/sign/safety/two,
+/turf/closed/shuttle/elevator,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "C" = (
 /turf/closed/shuttle/elevator{
@@ -66,16 +76,15 @@
 	dir = 4;
 	id = "west"
 	},
-/turf/open/space/basic,
+/turf/open/shuttle/lifeboat,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "R" = (
-/obj/docking_port/mobile/sulaco_central2,
 /turf/closed/shuttle/elevator{
 	dir = 10
 	},
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "S" = (
-/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent,
+/obj/structure/machinery/computer/shuttle_control/sulaco/cen2,
 /turf/closed/shuttle/elevator/button/arrivals,
 /area/shuttle/sulaco/elevator_cen2/elevator)
 "T" = (
@@ -98,7 +107,7 @@ C
 T
 T
 T
-T
+k
 W
 "}
 (3,1,1) = {"
@@ -138,6 +147,6 @@ d
 j
 Q
 Q
-j
+A
 J
 "}
