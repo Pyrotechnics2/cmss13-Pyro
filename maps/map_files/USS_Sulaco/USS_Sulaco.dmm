@@ -1354,6 +1354,16 @@
 "hP" = (
 /turf/open/gm/empty,
 /area/shuttle/sulaco/elevator_cen1/lowerdeck)
+"hQ" = (
+/obj/structure/sign/poster/hunk{
+	pixel_x = -25;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "red"
+	},
+/area/almayer/shipboard/brig/processing)
 "hR" = (
 /obj/structure/platform{
 	dir = 4
@@ -3457,6 +3467,10 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
 /area/space)
+"sI" = (
+/obj/structure/sign/poster/hero/voteno,
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/shipboard/brig/evidence_storage)
 "sK" = (
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = -30
@@ -3769,6 +3783,10 @@
 	icon_state = "red"
 	},
 /area/sulaco/shipboard/checkpoint)
+"ug" = (
+/obj/structure/sign/poster/music,
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/living/commandbunks)
 "um" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -4210,6 +4228,10 @@
 	icon_state = "test_floor4"
 	},
 /area/almayer/engineering/upper_engineering/notunnel)
+"wD" = (
+/obj/structure/sign/poster/propaganda,
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/living/port_emb)
 "wE" = (
 /obj/structure/machinery/door_control{
 	id = "panicroomback";
@@ -5094,6 +5116,13 @@
 	req_access = null;
 	req_one_access_txt = "2;7"
 	},
+/obj/structure/sign/poster{
+	desc = "YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE.";
+	icon_state = "poster11";
+	name = "YOU ALWAYS KNOW A WORKING JOE.";
+	pixel_x = -27;
+	serial_number = 11
+	},
 /turf/open/floor/almayer,
 /area/sulaco/command/cichallway)
 "BO" = (
@@ -5762,6 +5791,10 @@
 	icon_state = "silvercorner"
 	},
 /area/sulaco/command/computerlab)
+"Fl" = (
+/obj/structure/sign/poster/pinup,
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/living/numbertwobunks)
 "Fn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8
@@ -6035,6 +6068,10 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"GM" = (
+/obj/structure/sign/prop2,
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/living/commandbunks)
 "GT" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
@@ -14047,7 +14084,7 @@ EJ
 RW
 tf
 pO
-EJ
+GM
 Pj
 fw
 Pj
@@ -14305,7 +14342,7 @@ Yi
 Jw
 Mc
 Ve
-Yi
+Fl
 Ct
 PW
 hA
@@ -14406,7 +14443,7 @@ kJ
 cy
 jT
 cy
-EJ
+ug
 mE
 ti
 zt
@@ -16625,7 +16662,7 @@ ye
 fo
 BJ
 Bz
-Bz
+hQ
 Yl
 Fi
 nT
@@ -16978,7 +17015,7 @@ TY
 VB
 Dc
 YY
-YY
+wD
 aF
 Ap
 nk
@@ -17966,7 +18003,7 @@ uF
 PS
 yt
 PS
-Ug
+sI
 Es
 wl
 tm
