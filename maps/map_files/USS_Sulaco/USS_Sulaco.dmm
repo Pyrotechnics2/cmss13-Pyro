@@ -2,6 +2,10 @@
 "aa" = (
 /turf/open/space,
 /area/space)
+"ab" = (
+/obj/structure/machinery/light,
+/turf/open/floor/plating/plating_catwalk,
+/area/sulaco/command/securestorage)
 "ad" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -187,6 +191,16 @@
 	icon_state = "cargo"
 	},
 /area/almayer/engineering/engineering_workshop/hangar)
+"bI" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/intel{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "bN" = (
 /obj/structure/machinery/cm_vending/sorted/tech/comp_storage,
 /turf/open/floor/almayer{
@@ -245,6 +259,12 @@
 	},
 /turf/open/floor/airless,
 /area/almayer/living/briefing)
+"cg" = (
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "cs" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -440,6 +460,9 @@
 "ea" = (
 /turf/closed/wall/almayer/reinforced,
 /area/sulaco/living/cryo_cells)
+"eb" = (
+/turf/closed/wall/almayer/white,
+/area/almayer/medical/medical_science)
 "ef" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer,
@@ -542,12 +565,6 @@
 	icon_state = "silver"
 	},
 /area/almayer/living/briefing)
-"eO" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/closed/wall/almayer/reinforced,
-/area/sulaco/living/numbertwobunks)
 "eT" = (
 /obj/structure/machinery/body_scanconsole,
 /turf/open/floor/almayer{
@@ -590,6 +607,10 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/living/port_emb)
+"fb" = (
+/obj/structure/machinery/cm_vending/gear/intelligence_officer,
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "fc" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -806,18 +827,14 @@
 	icon_state = "plate"
 	},
 /area/almayer/living/offices/flight)
+"gN" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "gT" = (
-/obj/structure/closet/secure_closet/guncabinet/riot_control,
-/obj/item/storage/box/nade_box/tear_gas,
-/obj/item/storage/box/flashbangs{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/storage/box/flashbangs{
-	pixel_x = 5;
-	pixel_y = 9
-	},
-/obj/item/weapon/gun/launcher/grenade/m81/riot,
 /obj/structure/machinery/light{
 	dir = 8
 	},
@@ -919,6 +936,13 @@
 	dir = 6
 	},
 /area/almayer/living/briefing)
+"hT" = (
+/obj/structure/machinery/telecomms/bus/preset_three,
+/obj/structure/machinery/telecomms/bus/preset_three,
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "hU" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/airlock/almayer/security/glass{
@@ -1056,6 +1080,12 @@
 	icon_state = "silver"
 	},
 /area/sulaco/command/cic)
+"ih" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "ii" = (
 /obj/structure/machinery/door_control{
 	id = "or01";
@@ -1142,9 +1172,18 @@
 	},
 /turf/open/space/basic,
 /area/shuttle/sulaco/elevator_cen2/lowerdeck)
+"iV" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "iZ" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
+"jf" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/sulaco/command/computerlab)
 "jh" = (
 /turf/open/floor/almayer,
 /area/almayer/medical/testlab)
@@ -1193,9 +1232,6 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/engineering/engineering_workshop)
-"jz" = (
-/turf/open/floor/almayer,
-/area/sulaco/shipboard/checkpoint)
 "jA" = (
 /obj/structure/platform_decoration,
 /turf/open/floor/almayer,
@@ -1275,6 +1311,11 @@
 	icon_state = "tcomms"
 	},
 /area/sulaco/command/airoom)
+"jU" = (
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/sulaco/command/securestorage)
 "jV" = (
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
@@ -1362,6 +1403,12 @@
 	},
 /turf/open/floor/wood/ship,
 /area/sulaco/command/corporateliason)
+"kx" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "ky" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -1550,6 +1597,9 @@
 "mj" = (
 /turf/open/floor/grass,
 /area/sulaco/living/port_garden)
+"ml" = (
+/turf/closed/wall/almayer,
+/area/sulaco/command/securestorage)
 "mo" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/emails{
@@ -1676,6 +1726,10 @@
 	icon_state = "green"
 	},
 /area/sulaco/living/port_emb)
+"nl" = (
+/obj/structure/machinery/cm_vending/clothing/intelligence_officer,
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "nm" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = -30
@@ -1748,6 +1802,12 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/shipboard/checkpoint)
+"nM" = (
+/obj/structure/surface/rack,
+/turf/open/floor/almayer{
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "nN" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
@@ -1822,6 +1882,15 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"oe" = (
+/obj/structure/machinery/telecomms/bus/preset_three,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "of" = (
 /obj/structure/largecrate/random/barrel/green,
 /obj/structure/largecrate/random/barrel/green,
@@ -1888,6 +1957,14 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"oK" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "oN" = (
 /obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
@@ -1950,6 +2027,11 @@
 	icon_state = "plating"
 	},
 /area/sulaco/shipboard/checkpoint)
+"ph" = (
+/turf/open/floor/almayer{
+	icon_state = "sterile_green_corner"
+	},
+/area/almayer/living/officer_rnr)
 "pk" = (
 /obj/structure/pipes/vents/pump/siphon/on{
 	id_tag = "waste_lower_out"
@@ -2141,12 +2223,25 @@
 	},
 /turf/open/floor/plating,
 /area/sulaco/shipboard/checkpoint)
+"qg" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/view_objectives{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "qh" = (
 /obj/structure/machinery/landinglight/ds2/delaytwo,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"qn" = (
+/obj/structure/machinery/power/apc/almayer,
+/obj/structure/machinery/light,
+/turf/open/floor/plating/plating_catwalk,
+/area/sulaco/command/securestorage)
 "qt" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -2352,6 +2447,12 @@
 	icon_state = "test_floor4"
 	},
 /area/space)
+"rU" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "sterile_green_corner"
+	},
+/area/almayer/living/officer_rnr)
 "rW" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
@@ -2386,6 +2487,12 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
+"sp" = (
+/obj/structure/machinery/telecomms/broadcaster/preset_right,
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "sr" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
@@ -2451,6 +2558,14 @@
 "sN" = (
 /turf/open/floor/almayer,
 /area/sulaco/shipboard/brig)
+"sO" = (
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	dir = 8;
+	name = "\improper High Security Storage";
+	req_access = null
+	},
+/turf/open/floor/almayer,
+/area/sulaco/command/securestorage)
 "sP" = (
 /turf/closed/wall/almayer,
 /area/space)
@@ -2532,6 +2647,21 @@
 /obj/structure/machinery/cryopod,
 /turf/open/floor/wood/ship,
 /area/sulaco/living/commandbunks)
+"tv" = (
+/obj/structure/machinery/door_control{
+	id = "tcomms";
+	name = "Telecommunications Entrance";
+	pixel_y = 25
+	},
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "plating_striped"
+	},
+/area/sulaco/command/securestorage)
 "ty" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 1
@@ -2624,6 +2754,12 @@
 	icon_state = "bluecorner"
 	},
 /area/sulaco/command/cichallway)
+"up" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "ux" = (
 /obj/structure/machinery/autolathe,
 /turf/open/floor/almayer{
@@ -2824,14 +2960,11 @@
 	},
 /area/sulaco/command/combat_correspondent)
 "vV" = (
-/turf/open/floor/almayer,
-/area/sulaco/command/securestorage)
-"wa" = (
+/obj/structure/surface/rack,
 /turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "green"
+	icon_state = "silver"
 	},
-/area/sulaco/living/port_emb)
+/area/sulaco/command/securestorage)
 "wb" = (
 /obj/structure/closet/secure_closet/cmdcabinet{
 	pixel_y = 24
@@ -2891,6 +3024,15 @@
 	},
 /turf/open/floor/plating,
 /area/almayer/living/pilotbunks)
+"wv" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silvercorner"
+	},
+/area/sulaco/command/computerlab)
 "wy" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -2957,6 +3099,13 @@
 	icon_state = "cargo"
 	},
 /area/almayer/hallways/hangar)
+"xa" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/door/window/westright{
+	dir = 2
+	},
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "xb" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -3061,7 +3210,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/almayer,
 /area/sulaco/shipboard/checkpoint)
 "xR" = (
 /obj/structure/machinery/status_display{
@@ -3069,6 +3218,10 @@
 	},
 /turf/open/floor/carpet,
 /area/sulaco/living/commandbunks)
+"xU" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/sulaco/command/telecomms)
 "xV" = (
 /obj/structure/machinery/landinglight/ds2/delaytwo{
 	dir = 4
@@ -3213,6 +3366,14 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/medical/lower_medical_lobby)
+"yY" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/intel,
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "yZ" = (
 /obj/structure/machinery/sleep_console,
 /turf/open/floor/almayer{
@@ -3222,6 +3383,21 @@
 "za" = (
 /turf/closed/wall/almayer/outer,
 /area/sulaco/living/numbertwobunks)
+"ze" = (
+/turf/open/floor/almayer{
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
+"zh" = (
+/obj/structure/machinery/computer/disk_reader{
+	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "zn" = (
 /obj/structure/lattice,
 /turf/closed/wall/almayer/outer,
@@ -3299,6 +3475,11 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
+"zR" = (
+/turf/open/floor/almayer{
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "zT" = (
 /obj/structure/machinery/medical_pod/sleeper,
 /turf/open/floor/almayer{
@@ -3401,6 +3582,15 @@
 	icon_state = "emerald"
 	},
 /area/almayer/hallways/hangar)
+"AF" = (
+/obj/structure/machinery/prop/almayer/computer{
+	pixel_y = 20
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silvercorner"
+	},
+/area/sulaco/command/computerlab)
 "AI" = (
 /turf/closed/wall/almayer,
 /area/almayer/hallways/repair_bay)
@@ -3530,6 +3720,14 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/space)
+"BU" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/disk_reader,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "BY" = (
 /obj/vehicle/powerloader,
 /obj/structure/platform{
@@ -3566,6 +3764,10 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/medical/lower_medical_lobby)
+"Cc" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/intelligence_officer,
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "Ck" = (
 /obj/structure/machinery/landinglight/ds2/delaythree{
 	dir = 1
@@ -3594,11 +3796,6 @@
 	},
 /area/almayer/medical/lower_medical_lobby)
 "Cq" = (
-/obj/structure/closet/secure_closet/guncabinet/riot_control,
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "red"
@@ -3767,6 +3964,10 @@
 	},
 /turf/open/space/basic,
 /area/shuttle/sulaco/elevator_cen1/lowerdeck)
+"Du" = (
+/obj/structure/bed/chair/office/light,
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "Dx" = (
 /obj/structure/machinery/status_display{
 	pixel_x = 32
@@ -3862,6 +4063,12 @@
 "Eu" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
+"Ev" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "Ex" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer{
@@ -3962,6 +4169,12 @@
 	icon_state = "blue"
 	},
 /area/sulaco/command/cic)
+"Fk" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "silvercorner"
+	},
+/area/sulaco/command/computerlab)
 "Fn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8
@@ -3976,6 +4189,18 @@
 "Fo" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/engineering/upper_engineering/notunnel)
+"Fp" = (
+/obj/structure/machinery/power/apc/almayer{
+	cell_type = /obj/item/cell/hyper;
+	dir = 1
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "Fq" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -4049,6 +4274,12 @@
 "FN" = (
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/living/briefing)
+"FO" = (
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "FQ" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
 /turf/open/floor/almayer{
@@ -4231,6 +4462,9 @@
 /obj/effect/landmark/start/executive,
 /turf/open/floor/almayer,
 /area/sulaco/living/cryo_cells)
+"Ho" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/officer_rnr)
 "Hr" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -4367,6 +4601,9 @@
 	icon_state = "test_floor4"
 	},
 /area/almayer/hallways/hangar)
+"Ij" = (
+/turf/closed/wall/almayer,
+/area/almayer/living/officer_rnr)
 "Im" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/fourway/hidden/supply,
@@ -4478,6 +4715,15 @@
 	icon_state = "orange"
 	},
 /area/almayer/engineering/engineering_workshop)
+"Jw" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/living/numbertwobunks)
 "Jx" = (
 /obj/structure/sink{
 	dir = 8;
@@ -4493,6 +4739,9 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/medical/lower_medical_lobby)
+"Jz" = (
+/turf/closed/wall/almayer,
+/area/sulaco/command/computerlab)
 "JC" = (
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/almayer{
@@ -4538,6 +4787,10 @@
 	icon_state = "silver"
 	},
 /area/almayer/living/briefing)
+"JR" = (
+/obj/structure/machinery/door/airlock/almayer,
+/turf/open/floor/almayer,
+/area/sulaco/living/cryo_cells)
 "JS" = (
 /obj/structure/machinery/door_control{
 	id = "safe_armory";
@@ -4772,6 +5025,12 @@
 	icon_state = "red"
 	},
 /area/sulaco/shipboard/checkpoint)
+"LC" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_corner"
+	},
+/area/almayer/living/officer_rnr)
 "LD" = (
 /obj/structure/flora/pottedplant{
 	desc = "Life is underwhelming, especially when you're a potted plant.";
@@ -4849,6 +5108,17 @@
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
 /area/almayer/engineering/airmix)
+"Mf" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/transmitter/rotary{
+	name = "Intelligence Center Telephone";
+	phone_category = "Almayer";
+	phone_id = "Intelligence Center Telephone"
+	},
+/turf/open/floor/almayer{
+	icon_state = "silvercorner"
+	},
+/area/sulaco/command/computerlab)
 "Mj" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -4897,6 +5167,16 @@
 	},
 /turf/open/floor/carpet,
 /area/sulaco/command/corporateliason)
+"MK" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/flashlight/lamp{
+	layer = 3.1;
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/almayer,
+/area/sulaco/command/securestorage)
 "MQ" = (
 /obj/structure/machinery/door_control{
 	id = "cl_shutters";
@@ -4958,6 +5238,14 @@
 	},
 /turf/open/floor/wood/ship,
 /area/sulaco/command/corporateliason)
+"Nf" = (
+/obj/structure/machinery/telecomms/relay/preset/telecomms{
+	listening_level = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "Nh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -4976,6 +5264,12 @@
 /obj/effect/landmark/start/crew_chief,
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"NA" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "plating_striped"
+	},
+/area/sulaco/command/securestorage)
 "NC" = (
 /turf/closed/wall/almayer/reinforced,
 /area/sulaco/shipboard/checkpoint)
@@ -5052,6 +5346,9 @@
 	icon_state = "red"
 	},
 /area/sulaco/shipboard/checkpoint)
+"NV" = (
+/turf/closed/wall/almayer/reinforced,
+/area/sulaco/command/telecomms)
 "NW" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer,
@@ -5103,6 +5400,17 @@
 "Ok" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/hallways/repair_bay)
+"Op" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "tcomms"
+	},
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/sulaco/command/telecomms)
 "Oq" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	dir = 8;
@@ -5229,6 +5537,10 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"Pi" = (
+/obj/structure/machinery/computer/telecomms/traffic,
+/turf/open/floor/almayer,
+/area/sulaco/command/securestorage)
 "Pj" = (
 /turf/open/floor/almayer{
 	dir = 9;
@@ -5246,6 +5558,10 @@
 	icon_state = "silver"
 	},
 /area/almayer/living/briefing)
+"Pl" = (
+/obj/structure/machinery/computer/telecomms/monitor,
+/turf/open/floor/almayer,
+/area/sulaco/command/securestorage)
 "Pr" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/pilot_officer,
 /obj/structure/disposalpipe/segment{
@@ -5287,6 +5603,12 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/living/port_emb)
+"PK" = (
+/obj/structure/machinery/telecomms/receiver/preset_left,
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "PM" = (
 /obj/structure/machinery/door/airlock/almayer/generic/corporate,
 /obj/structure/machinery/status_display{
@@ -5394,6 +5716,11 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/hallways/hangar)
+"Qv" = (
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "Qw" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -5441,6 +5768,12 @@
 "QJ" = (
 /turf/closed/wall/almayer/outer,
 /area/sulaco/shipboard/brig)
+"QN" = (
+/obj/structure/machinery/telecomms/bus/preset_three,
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
+/area/sulaco/command/telecomms)
 "QO" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 4
@@ -5478,6 +5811,10 @@
 "Rd" = (
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"Rf" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/sulaco/command/computerlab)
 "Rn" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	icon_state = "prisontable"
@@ -5544,10 +5881,14 @@
 	icon_state = "test_floor4"
 	},
 /area/sulaco/shipboard/checkpoint)
-"RK" = (
+"RJ" = (
 /turf/open/floor/almayer{
-	icon_state = "green"
+	dir = 1;
+	icon_state = "silvercorner"
 	},
+/area/sulaco/command/computerlab)
+"RK" = (
+/turf/open/floor/plating/plating_catwalk,
 /area/sulaco/living/port_emb)
 "RQ" = (
 /turf/open/floor/almayer{
@@ -5589,12 +5930,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
-"Sn" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/sulaco/living/numbertwobunks)
 "Sq" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/medical{
@@ -5711,6 +6046,13 @@
 "Tt" = (
 /turf/closed/wall/almayer,
 /area/almayer/living/briefing)
+"Tu" = (
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	name = "\improper Computer Lab";
+	req_access = null
+	},
+/turf/open/floor/almayer,
+/area/sulaco/command/computerlab)
 "Tv" = (
 /obj/item/storage/secure/safe,
 /obj/item/spacecash/c1000/counterfeit,
@@ -5791,6 +6133,12 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"Ue" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/sulaco/command/computerlab)
 "Uh" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -5912,6 +6260,9 @@
 	icon_state = "blue"
 	},
 /area/sulaco/command/cic)
+"UX" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/sulaco/command/securestorage)
 "UY" = (
 /obj/structure/largecrate/random/barrel/red,
 /turf/open/floor/almayer{
@@ -5981,7 +6332,7 @@
 	req_access_txt = "4";
 	pixel_x = 24
 	},
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/almayer,
 /area/sulaco/shipboard/checkpoint)
 "Vo" = (
 /obj/structure/machinery/camera/autoname/almayer{
@@ -6250,15 +6601,17 @@
 "Xk" = (
 /turf/closed/wall/almayer,
 /area/almayer/living/offices/flight)
+"Xm" = (
+/turf/open/floor/almayer{
+	icon_state = "sterile_green"
+	},
+/area/almayer/living/officer_rnr)
 "Xp" = (
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "emerald"
 	},
 /area/sulaco/command/cic)
-"Xu" = (
-/turf/open/floor/almayer,
-/area/shuttle/sulaco/elevator_cen2/lowerdeck)
 "Xv" = (
 /turf/open/gm/empty,
 /area/shuttle/sulaco/elevator_cen1/upperdeck)
@@ -6275,6 +6628,12 @@
 	icon_state = "blue"
 	},
 /area/sulaco/command/cic)
+"XE" = (
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "XF" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 1
@@ -6318,6 +6677,12 @@
 	icon_state = "blue"
 	},
 /area/sulaco/hull/upper_hull/u_f_p)
+"Yd" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "Yf" = (
 /obj/structure/sign/safety/nonpress_0g{
 	pixel_x = -16
@@ -6359,7 +6724,10 @@
 /turf/open/floor/grass,
 /area/sulaco/living/port_garden)
 "Yn" = (
-/turf/open/floor/almayer,
+/obj/structure/machinery/telecomms/hub/preset,
+/turf/open/floor/almayer{
+	icon_state = "tcomms"
+	},
 /area/sulaco/command/telecomms)
 "Yr" = (
 /obj/structure/bed/chair/comfy/delta{
@@ -6369,6 +6737,12 @@
 	icon_state = "bluefull"
 	},
 /area/almayer/living/briefing)
+"Ys" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_corner"
+	},
+/area/almayer/living/officer_rnr)
 "Yy" = (
 /obj/structure/machinery/vending/cigarette,
 /obj/structure/machinery/firealarm{
@@ -6418,7 +6792,8 @@
 /obj/structure/machinery/computer/almayer_control{
 	dir = 8;
 	layer = 2.99;
-	pixel_y = 26
+	pixel_y = 26;
+	name = "sulaco control console"
 	},
 /obj/item/device/megaphone,
 /turf/open/floor/almayer{
@@ -6524,6 +6899,12 @@
 	dir = 4
 	},
 /area/almayer/living/briefing)
+"Zq" = (
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "sterile_green_side"
+	},
+/area/almayer/living/officer_rnr)
 "Zx" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -6577,6 +6958,10 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
 /area/almayer/living/pilotbunks)
+"ZM" = (
+/obj/structure/machinery/computer/telecomms/server,
+/turf/open/floor/almayer,
+/area/sulaco/command/securestorage)
 "ZP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -11042,7 +11427,7 @@ Yi
 Hu
 lZ
 fl
-Mc
+Yi
 DX
 Fd
 hA
@@ -11162,7 +11547,7 @@ KX
 pl
 HS
 sR
-Sn
+cQ
 cQ
 Yi
 vT
@@ -11283,8 +11668,8 @@ Dm
 KX
 ik
 Yi
-Yi
-eO
+Jw
+Mc
 Ve
 Yi
 Ct
@@ -11997,13 +12382,13 @@ kJ
 Qk
 Qk
 Qk
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
+yD
+yD
+yD
+yD
+yD
+yD
+yD
 cW
 ZV
 ea
@@ -12116,16 +12501,16 @@ aa
 LU
 tD
 Eu
+NV
+NV
+QN
 Yn
-Yn
-Yn
-Yn
+NV
+MK
+tv
 vV
 vV
-vV
-vV
-vV
-sP
+ml
 lO
 rW
 ea
@@ -12238,16 +12623,16 @@ aa
 LU
 tD
 Eu
-Yn
-Yn
-Yn
-Yn
-vV
-vV
-vV
-vV
-vV
-sP
+oe
+hT
+QN
+Qv
+xU
+Pl
+NA
+UX
+qn
+ml
 lO
 Dc
 ZS
@@ -12360,16 +12745,16 @@ aa
 LU
 tD
 Eu
-Yn
-Yn
-Yn
-Yn
+PK
+Qv
+Qv
+Qv
+xU
+ZM
+NA
 vV
 vV
-vV
-vV
-vV
-sP
+ml
 lO
 Dc
 ea
@@ -12482,16 +12867,16 @@ aa
 LU
 tD
 Eu
-Yn
-Yn
-Yn
-Yn
-vV
-vV
-vV
-vV
-vV
-sP
+Nf
+sp
+Qv
+Qv
+xU
+Pi
+NA
+UX
+ab
+ml
 lO
 Dc
 ea
@@ -12604,16 +12989,16 @@ aa
 LU
 tD
 Eu
-Yn
-Yn
-Yn
-Yn
+Fp
+Qv
+Qv
+Qv
+Op
+jU
+NA
 vV
 vV
-vV
-vV
-vV
-sP
+ml
 lO
 Dc
 ZS
@@ -12726,16 +13111,16 @@ aa
 LU
 tD
 Eu
-Yn
-Yn
-Yn
-Yn
-vV
-vV
-vV
-vV
-vV
-sP
+NV
+xU
+xU
+NV
+NV
+ml
+sO
+ml
+ml
+ml
 lO
 Dc
 ea
@@ -12848,16 +13233,16 @@ aa
 LU
 tD
 Eu
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+yY
+up
+bI
+zh
+Jz
+gN
+jf
+oK
+nl
+Jz
 lO
 rW
 ea
@@ -12970,16 +13355,16 @@ aa
 LU
 tD
 Eu
+BU
+kx
 nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+wv
+up
+RJ
+jf
+ze
+Cc
+Jz
 lO
 Dc
 ZS
@@ -13092,16 +13477,16 @@ aa
 LU
 tD
 Eu
+Mf
+Ev
+Ev
+Fk
 nx
 nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+jf
+ze
+fb
+Jz
 lO
 Dc
 ea
@@ -13214,16 +13599,16 @@ aa
 LU
 tD
 Eu
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+ze
+jf
+jf
+Ue
+Jz
+Jz
+Tu
+Rf
+Jz
+Jz
 lO
 Dc
 ea
@@ -13336,16 +13721,16 @@ aa
 LU
 tD
 Eu
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+AF
+up
+up
+RJ
+xa
+cg
+iV
+iV
+Zq
+Ij
 lO
 Dc
 ZS
@@ -13458,16 +13843,16 @@ aa
 LU
 tD
 Eu
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+nM
+nM
+nM
+Du
+qg
+zR
+Ho
+Ho
+ph
+Zq
 lO
 Dc
 ea
@@ -13580,23 +13965,23 @@ aa
 LU
 tD
 Eu
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-nx
-sP
+Jz
+Jz
+Jz
+Jz
+Jz
+Ys
+Xm
+Xm
+Xm
+Yd
 lO
 Dc
 ea
 ea
-pI
+JR
 ea
-pI
+JR
 ea
 ea
 Py
@@ -13706,17 +14091,17 @@ jh
 jh
 jh
 jh
-DT
-DT
-DT
-DT
-DT
-sP
+eb
+rU
+Xm
+Xm
+Xm
+Yd
 lO
 rW
 YY
 eZ
-wa
+RK
 Ap
 RK
 eK
@@ -13828,19 +14213,19 @@ jh
 jh
 jh
 jh
-DT
-DT
-DT
-DT
-DT
-sP
+eb
+zR
+Ho
+Ho
+LC
+FO
 lO
 Dc
 YY
 PH
+RK
 Ap
-Ap
-Ap
+RK
 eZ
 YY
 Py
@@ -13950,12 +14335,12 @@ jh
 jh
 jh
 jh
-DT
-DT
-DT
-DT
-DT
-sP
+eb
+XE
+ih
+ih
+FO
+Ij
 lO
 Dc
 YY
@@ -14072,11 +14457,11 @@ jh
 jh
 jh
 jh
-DT
-DT
-DT
-DT
-DT
+eb
+eb
+eb
+eb
+eb
 sP
 lO
 Dc
@@ -16034,9 +16419,9 @@ lO
 rH
 pG
 hU
-jz
-jz
-jz
+tA
+tA
+tA
 hU
 TQ
 WP
@@ -18661,7 +19046,7 @@ Yk
 Yk
 Gr
 Gr
-Xu
+Gr
 KU
 KU
 KU
