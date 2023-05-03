@@ -5546,7 +5546,7 @@
 	icon_state = "E";
 	pixel_x = 2
 	},
-/turf/open/floor/almayer,
+/turf/closed/wall/almayer,
 /area/almayer/living/cryo_cells)
 "uk" = (
 /turf/open/floor/almayer/uscm/directional{
@@ -5851,20 +5851,6 @@
 	icon_state = "red"
 	},
 /area/sulaco/squads/alpha)
-"vm" = (
-/obj/structure/window/framed/almayer,
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "SEA Office Shutters";
-	name = "\improper Privacy Shutters"
-	},
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "silvercorner"
-	},
-/area/almayer/shipboard/sea_office)
 "vn" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/light,
@@ -6211,12 +6197,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/medical/lower_medical_lobby)
-"wL" = (
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "silvercorner"
-	},
-/area/almayer/shipboard/sea_office)
 "wM" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -9918,10 +9898,7 @@
 	dir = 4;
 	invisibility = 101
 	},
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "silvercorner"
-	},
+/turf/open/floor/wood/ship,
 /area/almayer/shipboard/sea_office)
 "La" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -28008,8 +27985,8 @@ FW
 QY
 Ds
 QY
-wL
-vm
+Ds
+bG
 ev
 hj
 gq
@@ -28130,8 +28107,8 @@ bG
 Pa
 We
 pq
-wL
-vm
+Ds
+bG
 ev
 RY
 gq
@@ -28253,7 +28230,7 @@ Ox
 XS
 Ds
 KZ
-wL
+QW
 ev
 RY
 gq
