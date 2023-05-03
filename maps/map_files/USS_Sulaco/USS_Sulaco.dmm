@@ -106,12 +106,6 @@
 /obj/structure/machinery/cm_vending/gear/smartgun,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
-"az" = (
-/obj/structure/machinery/power/apc/almayer,
-/turf/open/floor/almayer{
-	icon_state = "orange"
-	},
-/area/sulaco/squads/bravo)
 "aA" = (
 /obj/structure/machinery/cryopod{
 	dir = 1
@@ -495,12 +489,6 @@
 	icon_state = "bluecorner"
 	},
 /area/sulaco/squads/delta)
-"bY" = (
-/obj/structure/machinery/power/apc/almayer,
-/turf/open/floor/almayer{
-	icon_state = "red"
-	},
-/area/sulaco/squads/alpha)
 "bZ" = (
 /obj/docking_port/stationary/emergency_response/external/port5,
 /turf/open/space/basic,
@@ -6976,15 +6964,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/medical/lower_medical_lobby)
-"zF" = (
-/obj/structure/machinery/power/apc/almayer{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "blue"
-	},
-/area/sulaco/squads/delta)
 "zH" = (
 /turf/closed/wall/almayer/white,
 /area/almayer/medical/hydroponics)
@@ -7968,15 +7947,6 @@
 /obj/effect/landmark/start/marine/smartgunner/delta,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/delta)
-"DG" = (
-/obj/structure/machinery/power/apc/almayer{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "emerald"
-	},
-/area/sulaco/squads/charlie)
 "DH" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -25888,7 +25858,7 @@ wO
 oP
 Ki
 oP
-bY
+mF
 Wg
 Mu
 oP
@@ -25922,7 +25892,7 @@ TO
 QZ
 oq
 kO
-DG
+TO
 QZ
 xT
 QZ
@@ -29426,7 +29396,7 @@ Bs
 Cf
 Ic
 Cf
-az
+aV
 OW
 bJ
 Cf
@@ -29460,7 +29430,7 @@ xe
 CU
 jB
 My
-zF
+xe
 CU
 bx
 CU
