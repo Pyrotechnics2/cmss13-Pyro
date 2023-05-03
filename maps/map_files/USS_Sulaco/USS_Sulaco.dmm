@@ -8715,6 +8715,20 @@
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
+"IH" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/floor/almayer_hull{
+	dir = 1;
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "II" = (
 /obj/structure/machinery/cm_vending/clothing/specialist/alpha,
 /turf/open/floor/almayer,
@@ -9628,6 +9642,33 @@
 /area/almayer/medical/lower_medical_lobby)
 "Mo" = (
 /turf/open/floor/almayer,
+/area/space)
+"Mq" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/space/basic,
 /area/space)
 "Mr" = (
 /obj/structure/window/framed/almayer/hull,
@@ -12086,6 +12127,25 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/processing)
+"Wj" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/floor/almayer_hull,
+/area/space)
 "Wk" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -12768,6 +12828,25 @@
 	icon_state = "redfull"
 	},
 /area/sulaco/squads/alpha)
+"YM" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/space,
+/area/space)
 "YO" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/window{
@@ -21105,8 +21184,8 @@ RM
 sj
 Li
 gR
-tD
-oJ
+NP
+qv
 aa
 aa
 aa
@@ -21228,9 +21307,9 @@ ny
 FF
 gR
 tD
-oJ
-aa
-aa
+qv
+pQ
+YM
 aa
 aa
 aa
@@ -21352,7 +21431,7 @@ QJ
 tD
 KY
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -21474,7 +21553,7 @@ QJ
 tD
 KY
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -21558,7 +21637,7 @@ aa
 aa
 aa
 aa
-LU
+IH
 nJ
 nJ
 Jd
@@ -21596,7 +21675,7 @@ tD
 oJ
 aa
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -21680,7 +21759,7 @@ Uy
 Uy
 Uy
 Uy
-Vr
+zX
 NP
 tD
 bq
@@ -21717,8 +21796,8 @@ Eu
 tD
 yB
 Uy
-Uy
-Uy
+Uh
+Uh
 Uy
 Uy
 Uy
@@ -21802,7 +21881,7 @@ aa
 aa
 aa
 aa
-aa
+pQ
 zX
 tD
 bq
@@ -21839,7 +21918,7 @@ IL
 KY
 pQ
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -21924,7 +22003,7 @@ aa
 aa
 aa
 aa
-aa
+pQ
 Uh
 LU
 Jd
@@ -21950,7 +22029,7 @@ Gy
 ZZ
 Eu
 tD
-KY
+yB
 aa
 aa
 aa
@@ -21959,8 +22038,8 @@ aa
 aa
 aa
 aa
+YM
 pQ
-aa
 aa
 aa
 aa
@@ -22045,8 +22124,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+pQ
+pQ
 Uh
 Vr
 IL
@@ -22073,9 +22152,9 @@ ZZ
 Eu
 oJ
 aa
-aa
-aa
-aa
+pQ
+pQ
+pQ
 aa
 aa
 aa
@@ -22168,9 +22247,9 @@ aa
 aa
 aa
 aa
-aa
-Uh
-aa
+pQ
+ob
+pQ
 aa
 Vr
 IL
@@ -22198,8 +22277,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+pQ
+pQ
 aa
 aa
 aa
@@ -22291,8 +22370,8 @@ aa
 aa
 aa
 aa
-Uh
-aa
+Mq
+pQ
 aa
 aa
 aa
@@ -22321,9 +22400,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+pQ
+pQ
+pQ
 aa
 pQ
 aa
@@ -22414,7 +22493,7 @@ Uy
 Uy
 Uy
 Uh
-Uy
+Uh
 Uy
 Uy
 Uy
@@ -22445,9 +22524,9 @@ Uy
 Uy
 Uy
 Uy
-Uy
-Uy
 Uh
+Uh
+ob
 Uy
 Uy
 Uy
@@ -22534,11 +22613,11 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uh
 Uy
-Uy
-Uy
+Uh
+Uh
 Uy
 Uy
 Uy
@@ -22569,7 +22648,7 @@ Uy
 Uy
 Uy
 Uy
-Uh
+ob
 Uy
 Uy
 Uy
@@ -22656,12 +22735,12 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uh
 Uy
 Uy
-Uy
-Uy
+Uh
+Uh
 Uy
 Uy
 Uy
@@ -22690,7 +22769,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uh
 Uy
 Uy
@@ -22777,12 +22856,12 @@ Uy
 Uy
 Uy
 Uy
+Uh
+Uy
+ob
 Uy
 Uy
 Uh
-Uy
-Uy
-Uy
 Uy
 Uy
 Uy
@@ -22812,9 +22891,9 @@ Uy
 Uy
 Uy
 Uy
-Uy
 Uh
-Uy
+ob
+Uh
 Uy
 Uy
 Uy
@@ -22899,12 +22978,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-ob
-aa
-aa
-aa
+pQ
+pQ
+Mq
+pQ
+pQ
+pQ
 aa
 aa
 aa
@@ -22935,8 +23014,8 @@ aa
 aa
 aa
 aa
-ob
-aa
+Mq
+pQ
 aa
 aa
 aa
@@ -23022,11 +23101,11 @@ aa
 aa
 aa
 aa
-aa
+pQ
 Uh
 aa
 aa
-aa
+YM
 aa
 aa
 aa
@@ -23058,7 +23137,7 @@ aa
 aa
 aa
 Uh
-aa
+YM
 aa
 aa
 aa
@@ -23148,8 +23227,8 @@ aa
 Uh
 aa
 aa
-aa
-aa
+YM
+pQ
 aa
 aa
 aa
@@ -23181,7 +23260,7 @@ aa
 pQ
 Uh
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -23267,12 +23346,12 @@ aa
 aa
 aa
 aa
-Uh
+ob
 aa
-aa
-aa
-aa
-aa
+pQ
+pQ
+pQ
+pQ
 aa
 aa
 aa
@@ -23303,7 +23382,7 @@ pQ
 pQ
 Uh
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -23390,13 +23469,13 @@ aa
 aa
 aa
 Uh
+pQ
+pQ
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+pQ
+pQ
 aa
 aa
 LU
@@ -23426,7 +23505,7 @@ aa
 Uh
 aa
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -23518,8 +23597,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+pQ
+pQ
 aa
 LU
 Eu
@@ -23548,7 +23627,7 @@ aa
 Uh
 pQ
 aa
-aa
+pQ
 aa
 aa
 aa
@@ -23641,8 +23720,8 @@ UN
 UN
 UN
 UN
-UN
-UN
+TS
+TS
 tD
 Eu
 OR
@@ -23670,7 +23749,7 @@ UN
 TS
 Lg
 pQ
-aa
+pQ
 aa
 aa
 aa
@@ -26067,7 +26146,7 @@ Uy
 Uy
 Uy
 LU
-tD
+NP
 na
 lM
 kh
@@ -26188,8 +26267,8 @@ Uy
 Uy
 Uy
 Uy
-LU
-tD
+IH
+NP
 na
 Wg
 bd
@@ -26309,8 +26388,8 @@ Uy
 Uy
 Uy
 Uy
-Uy
-LU
+Uh
+IH
 tD
 na
 QB
@@ -26431,7 +26510,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 LU
 tD
 Mr
@@ -26552,7 +26631,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uy
 LU
 tD
@@ -26674,7 +26753,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uy
 LU
 tD
@@ -26796,7 +26875,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uy
 LU
 tD
@@ -26918,10 +26997,10 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 Uy
 LU
-tD
+NP
 Nt
 Sf
 Sf
@@ -27040,10 +27119,10 @@ Uy
 Uy
 Uy
 Uy
+Uh
 Uy
-Uy
-LU
-tD
+IH
+NP
 Nt
 Qi
 uy
@@ -27163,8 +27242,8 @@ Uy
 Uy
 Uy
 Uy
-Uy
-LU
+Uh
+IH
 tD
 TV
 IF
@@ -27285,8 +27364,8 @@ Uy
 Uy
 Uy
 Uy
-Uy
-LU
+Uh
+IH
 tD
 TV
 OW
@@ -27407,7 +27486,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 LU
 tD
 TV
@@ -27529,7 +27608,7 @@ Uy
 Uy
 Uy
 Uy
-Uy
+Uh
 LU
 tD
 TV
@@ -27651,8 +27730,8 @@ Uy
 Uy
 Uy
 Uy
-Uy
-LU
+Uh
+IH
 tD
 TV
 qK
@@ -27774,7 +27853,7 @@ Uy
 Uy
 Uy
 Uy
-LU
+IH
 tD
 TV
 ol
@@ -27896,7 +27975,7 @@ Uy
 Uy
 Uy
 Uy
-LU
+IH
 tD
 TV
 LO
@@ -28018,8 +28097,8 @@ Uy
 Uy
 Uy
 Uy
-LU
-tD
+IH
+NP
 TV
 OW
 OW
@@ -28141,7 +28220,7 @@ Uy
 Uy
 Uy
 LU
-tD
+NP
 Nt
 Bs
 Cf
@@ -29529,7 +29608,7 @@ bH
 RA
 IG
 nq
-tD
+Wj
 aa
 aa
 Uy
@@ -29651,8 +29730,8 @@ es
 es
 es
 es
-tD
-aa
+NP
+pQ
 aa
 Uy
 Uy
@@ -29773,9 +29852,9 @@ tD
 tD
 tD
 tD
-tD
+NP
 aa
-aa
+pQ
 Uy
 Uy
 aa
@@ -29895,9 +29974,9 @@ tD
 tD
 tD
 tD
-KY
+yB
 aa
-aa
+pQ
 Uy
 Uy
 aa
@@ -30017,9 +30096,9 @@ tD
 tD
 IL
 KY
-Uy
+Uh
 aa
-aa
+pQ
 Uy
 aa
 aa
@@ -30138,11 +30217,11 @@ Za
 tD
 oJ
 Uy
+Uh
 Uy
 Uy
 Uy
-Uy
-Uy
+Uh
 aa
 aa
 aa
@@ -30258,13 +30337,13 @@ el
 el
 Za
 tD
-oJ
+qv
+ob
+ob
 Uy
 Uy
 Uy
-Uy
-Uy
-Uy
+Uh
 aa
 aa
 aa
@@ -30379,14 +30458,14 @@ el
 el
 el
 Za
-tD
-oJ
+NP
+qv
+Uy
+Uh
 Uy
 Uy
-Uy
-Uy
-Uy
-Uy
+Uh
+Uh
 aa
 aa
 aa
@@ -30503,11 +30582,11 @@ el
 Za
 tD
 oJ
+Uh
+Uh
 Uy
-Uy
-Uy
-Uy
-Uy
+Uh
+Uh
 Uy
 aa
 aa
@@ -30626,9 +30705,9 @@ Za
 tD
 oJ
 Uy
+ob
 Uy
-Uy
-aa
+pQ
 aa
 Uy
 aa
@@ -30746,11 +30825,11 @@ el
 el
 Za
 tD
-oJ
-Uy
-Uy
-Uy
-aa
+qv
+Uh
+Uh
+Uh
+pQ
 aa
 Uy
 aa
@@ -30867,8 +30946,8 @@ el
 el
 el
 Za
-tD
-oJ
+NP
+qv
 Uy
 Uy
 Uy
