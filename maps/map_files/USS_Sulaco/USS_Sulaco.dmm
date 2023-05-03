@@ -1877,6 +1877,10 @@
 	icon_state = "redcorner"
 	},
 /area/almayer/shipboard/brig/processing)
+"hD" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer,
+/area/space)
 "hF" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/engineering/engineering_workshop/hangar)
@@ -2423,6 +2427,12 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/main_office)
+"jJ" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/hallways/aft_hallway)
 "jK" = (
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
@@ -2970,6 +2980,12 @@
 /obj/effect/landmark/start/marine/delta,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/delta)
+"lT" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/space)
 "lV" = (
 /turf/closed/wall/almayer/research/containment/wall/connect_s1,
 /area/almayer/medical/containment/cell)
@@ -3245,6 +3261,13 @@
 	icon_state = "red"
 	},
 /area/sulaco/squads/alpha)
+"mX" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
+	},
+/turf/open/floor/almayer,
+/area/almayer/hallways/port_hallway)
 "mY" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 4
@@ -3427,6 +3450,12 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/shipboard/checkpoint)
+"nI" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/port_emb)
 "nJ" = (
 /turf/closed/wall/almayer/white/outer_tile,
 /area/almayer/medical/containment/cell)
@@ -4229,6 +4258,13 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/living/officer_rnr)
+"qA" = (
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/almayer,
+/area/almayer/hallways/aft_hallway)
 "qC" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/closet/secure_closet/surgical{
@@ -4642,6 +4678,10 @@
 "sf" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/start/chef,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/cryo_cells)
 "sh" = (
@@ -6345,6 +6385,9 @@
 /area/almayer/hallways/hangar)
 "yV" = (
 /obj/effect/landmark/start/senior,
+/obj/structure/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/shipboard/sea_office)
 "yX" = (
@@ -6431,6 +6474,14 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/living/port_emb)
+"zj" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/start/maint,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/cryo_cells)
 "zk" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -7292,6 +7343,12 @@
 	icon_state = "silver"
 	},
 /area/sulaco/command/cic)
+"CG" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/space)
 "CH" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -8014,6 +8071,17 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/cells)
+"FK" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "green"
+	},
+/area/almayer/living/port_emb)
 "FL" = (
 /turf/open/floor/almayer{
 	dir = 9;
@@ -8151,6 +8219,9 @@
 "Gj" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/start/otech,
+/obj/structure/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/cryo_cells)
 "Gl" = (
@@ -9302,6 +9373,13 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"KZ" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/shipboard/sea_office)
 "La" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -10021,6 +10099,9 @@
 /obj/structure/sign/prop1{
 	pixel_y = 32
 	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/wood/ship,
 /area/almayer/shipboard/sea_office)
 "NP" = (
@@ -10202,6 +10283,10 @@
 /obj/structure/machinery/firealarm{
 	dir = 4;
 	pixel_x = 24
+	},
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
 	},
 /turf/open/floor/wood/ship,
 /area/almayer/shipboard/sea_office)
@@ -11370,6 +11455,16 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/alpha,
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
+"Tn" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "green"
+	},
+/area/almayer/living/port_emb)
 "Tp" = (
 /turf/open/floor/almayer,
 /area/almayer/hallways/aft_hallway)
@@ -12295,6 +12390,13 @@
 	icon_state = "sterile"
 	},
 /area/sulaco/living/commandbunks)
+"WL" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
+	},
+/turf/open/floor/almayer,
+/area/almayer/hallways/starboard_hallway)
 "WN" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/engineering/starboard_atmos)
@@ -13163,6 +13265,14 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/processing)
+"ZR" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/start/maint,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/cryo_cells)
 "ZS" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -25431,19 +25541,19 @@ OR
 OR
 OR
 sP
+lT
 Mo
 Mo
 Mo
 Mo
 Mo
+CG
 Mo
 Mo
 Mo
 Mo
 Mo
-Mo
-Mo
-Mo
+hD
 sP
 hj
 hj
@@ -26035,14 +26145,14 @@ TC
 gc
 hG
 SQ
-Wg
+nb
 OR
 OR
 OR
 OR
 pe
 rI
-tk
+nI
 pe
 pe
 pe
@@ -26052,14 +26162,14 @@ Tp
 pe
 pe
 pe
-tk
+nI
 rI
 pe
 hj
 hj
 hj
 hj
-kO
+yC
 SV
 OF
 Sy
@@ -26532,13 +26642,13 @@ pe
 rI
 tk
 dS
-dS
+FK
 pe
 Tp
 Tp
 Tp
 pe
-dS
+Tn
 dS
 tk
 rI
@@ -26894,21 +27004,21 @@ OW
 OR
 KG
 OR
+WL
 OR
 OR
 OR
 OR
-OR
-OR
+WL
 Tp
 Tp
 Tp
+mX
 hj
 hj
 hj
 hj
-hj
-hj
+mX
 hj
 RY
 hj
@@ -27505,7 +27615,7 @@ OR
 KG
 OR
 QG
-Na
+ZR
 df
 Cx
 sf
@@ -27517,7 +27627,7 @@ XA
 Ox
 XS
 Ds
-Ds
+KZ
 QW
 hj
 RY
@@ -27621,7 +27731,7 @@ jK
 zV
 zI
 HN
-OW
+cq
 OR
 OR
 OR
@@ -27632,9 +27742,9 @@ Gh
 Cx
 ox
 QG
+jJ
 Tp
-Tp
-Tp
+qA
 QW
 QW
 QW
@@ -27645,7 +27755,7 @@ hj
 hj
 hj
 hj
-My
+hq
 Hv
 mv
 eF
@@ -27871,7 +27981,7 @@ OR
 KG
 OR
 QG
-Na
+zj
 HX
 Cx
 Gj
