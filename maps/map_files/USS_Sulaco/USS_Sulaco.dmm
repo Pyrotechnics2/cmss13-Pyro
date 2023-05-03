@@ -696,12 +696,6 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/living/numbertwobunks)
 "cR" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -713,6 +707,7 @@
 	pixel_y = 8
 	},
 /obj/item/facepaint/green,
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
 "cT" = (
@@ -841,9 +836,7 @@
 	},
 /area/sulaco/command/cic)
 "dm" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/living/port_emb)
 "dn" = (
@@ -1563,14 +1556,12 @@
 /turf/open/floor/almayer,
 /area/almayer/hallways/hangar)
 "gf" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/structure/machinery/computer/crew/alt{
 	dir = 1;
 	pixel_x = -15;
 	pixel_y = -2
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "red"
@@ -2168,9 +2159,7 @@
 	},
 /area/almayer/shipboard/brig/processing)
 "iw" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/almayer/living/cafeteria_port)
 "ix" = (
@@ -2310,9 +2299,6 @@
 	},
 /area/almayer/hallways/hangar)
 "jl" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -2323,6 +2309,7 @@
 	pixel_x = -13;
 	pixel_y = 8
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
 "jo" = (
@@ -2633,9 +2620,6 @@
 	},
 /area/almayer/medical/medical_science)
 "kw" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -2650,6 +2634,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
 "kx" = (
@@ -2757,9 +2742,6 @@
 	},
 /area/sulaco/shipboard/checkpoint)
 "kU" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal3,
 /obj/item/reagent_container/food/snacks/mre_pack/meal1{
 	pixel_x = -13;
@@ -2774,6 +2756,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/charlie)
 "kW" = (
@@ -4259,12 +4242,6 @@
 	},
 /area/almayer/hallways/hangar)
 "qK" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal3,
 /obj/item/reagent_container/food/snacks/mre_pack/meal1{
 	pixel_x = -13;
@@ -4275,6 +4252,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
 "qM" = (
@@ -4474,26 +4452,7 @@
 	icon_state = "test_floor4"
 	},
 /area/space)
-"rE" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/meal3,
-/obj/item/reagent_container/food/snacks/mre_pack/meal1{
-	pixel_x = -13;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/meal5{
-	desc = "How long has this been sitting here?";
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/turf/open/floor/almayer,
-/area/sulaco/squads/charlie)
 "rF" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal1,
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
@@ -4504,6 +4463,7 @@
 	pixel_x = -19;
 	pixel_y = 5
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "orange"
@@ -4791,6 +4751,14 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
+"sC" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer,
+/area/sulaco/squads/charlie)
 "sE" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/alpha{
 	dir = 1
@@ -6045,16 +6013,6 @@
 	},
 /turf/open/space/basic,
 /area/sulaco/living/port_emb)
-"xF" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/machinery/light{
-	dir = 4;
-	invisibility = 101
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/sulaco/squads/alpha)
 "xH" = (
 /obj/structure/machinery/door/window/brigdoor/southright{
 	dir = 1
@@ -6606,6 +6564,9 @@
 	pixel_x = -32;
 	serial_number = 16
 	},
+/obj/structure/bed/chair{
+	dir = 4
+	},
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "emerald"
@@ -6950,9 +6911,6 @@
 	},
 /area/almayer/engineering/engineering_workshop/hangar)
 "By" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -6962,6 +6920,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
 "Bz" = (
@@ -7413,6 +7372,9 @@
 /obj/structure/sign/poster{
 	pixel_x = -32;
 	serial_number = 16
+	},
+/obj/structure/bed/chair{
+	dir = 4
 	},
 /turf/open/floor/almayer{
 	dir = 9;
@@ -8037,22 +7999,6 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/cells)
-"FI" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/meal3,
-/obj/item/reagent_container/food/snacks/mre_pack/meal1{
-	pixel_x = -13;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/meal5{
-	desc = "How long has this been sitting here?";
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/turf/open/floor/almayer,
-/area/sulaco/squads/bravo)
 "FL" = (
 /turf/open/floor/almayer{
 	dir = 9;
@@ -8514,9 +8460,7 @@
 	},
 /area/almayer/living/briefing)
 "HA" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
 "HB" = (
@@ -8569,9 +8513,6 @@
 	},
 /area/sulaco/command/cic)
 "HJ" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -8582,6 +8523,7 @@
 	dir = 4;
 	invisibility = 101
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/alpha)
 "HL" = (
@@ -8752,9 +8694,7 @@
 	},
 /area/sulaco/squads/bravo)
 "IG" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
 "II" = (
@@ -8793,12 +8733,6 @@
 /turf/closed/wall/almayer/reinforced,
 /area/space)
 "IR" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal3,
 /obj/item/reagent_container/food/snacks/mre_pack/meal1{
 	pixel_x = -13;
@@ -8809,6 +8743,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/charlie)
 "IV" = (
@@ -8860,9 +8795,6 @@
 	},
 /area/almayer/medical/lower_medical_lobby)
 "Jq" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal1,
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
@@ -8877,6 +8809,7 @@
 	pixel_y = 7
 	},
 /obj/item/facepaint/black,
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
 "Jr" = (
@@ -9458,13 +9391,11 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/charlie)
 "Lz" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/storage/donut_box{
 	pixel_x = 6;
 	pixel_y = 6
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/living/port_emb)
 "LB" = (
@@ -9752,9 +9683,6 @@
 /turf/open/floor/plating,
 /area/almayer/shipboard/brig/chief_mp_office)
 "MI" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -9764,6 +9692,7 @@
 /obj/structure/sign/safety/cryo{
 	pixel_x = 32
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
@@ -10066,14 +9995,12 @@
 	},
 /area/sulaco/squads/charlie)
 "NT" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/structure/machinery/computer/secure_data{
 	dir = 1;
 	pixel_y = -2;
 	pixel_x = -2
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	icon_state = "red"
 	},
@@ -10981,15 +10908,6 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/almayer,
 /area/almayer/hallways/repair_bay)
-"RD" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/sulaco/squads/charlie)
 "RG" = (
 /obj/item/device/radio/intercom{
 	freerange = 1;
@@ -11906,9 +11824,6 @@
 	},
 /area/sulaco/hull/upper_hull/u_f_p)
 "Vp" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/structure/machinery/recharger{
 	pixel_y = 5;
 	pixel_x = 5
@@ -11916,6 +11831,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	icon_state = "redcorner"
 	},
@@ -12008,9 +11924,6 @@
 /turf/open/floor/airless,
 /area/almayer/living/briefing)
 "VL" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal3,
 /obj/item/reagent_container/food/snacks/mre_pack/meal1{
 	pixel_x = -13;
@@ -12021,6 +11934,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
 "VM" = (
@@ -12167,12 +12081,6 @@
 /turf/closed/wall/almayer/research/containment/wall/east,
 /area/almayer/medical/containment/cell)
 "Wp" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal3,
 /obj/item/reagent_container/food/snacks/mre_pack/meal1{
 	pixel_x = -13;
@@ -12184,6 +12092,7 @@
 	pixel_y = 7
 	},
 /obj/item/facepaint/brown,
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
 "Wq" = (
@@ -12545,6 +12454,14 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/command/cic)
+"XM" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer,
+/area/sulaco/squads/alpha)
 "XS" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
@@ -12771,9 +12688,6 @@
 	},
 /area/sulaco/command/cic)
 "YD" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	icon_state = "prisontable"
-	},
 /obj/item/reagent_container/food/snacks/mre_pack/meal5{
 	desc = "How long has this been sitting here?";
 	pixel_x = 7;
@@ -12788,6 +12702,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
@@ -23969,7 +23884,7 @@ lz
 Aw
 Aw
 Aw
-tD
+Aw
 xy
 Uy
 Uy
@@ -24295,8 +24210,8 @@ Uy
 LU
 tD
 Mr
+XM
 sB
-xF
 TC
 Wg
 EY
@@ -24334,8 +24249,8 @@ QZ
 ws
 kO
 VW
-RD
 LY
+sC
 oc
 tD
 xy
@@ -25921,7 +25836,7 @@ VW
 rj
 QZ
 kU
-rE
+IR
 IR
 Aw
 tD
@@ -27710,8 +27625,8 @@ Uy
 LU
 tD
 TV
-FI
-FI
+qK
+qK
 qK
 Cf
 ez
