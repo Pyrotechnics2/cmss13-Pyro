@@ -4277,6 +4277,9 @@
 /obj/item/device/megaphone,
 /turf/open/floor/almayer,
 /area/almayer/engineering/engineering_workshop)
+"ot" = (
+/turf/closed/wall/almayer/outer,
+/area/sulaco/engineering/ce_room)
 "ou" = (
 /obj/structure/machinery/cm_vending/sorted/attachments/squad{
 	req_access = null;
@@ -5164,6 +5167,21 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/squads/charlie)
+"rp" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 1
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/window/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 2;
+	id = "ROlobby1";
+	name = "\improper RO Line 1"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/sulaco/squads/req)
 "rr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -14122,12 +14140,12 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 1
 	},
+/obj/structure/surface/table/reinforced/almayer_blend/north,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 2;
 	id = "ROlobby1";
 	name = "\improper RO Line 1"
 	},
-/obj/structure/surface/table/reinforced/almayer_blend/north,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -34003,7 +34021,7 @@ dn
 IN
 Kk
 Aa
-rs
+rp
 yL
 Tp
 Tp
@@ -35456,19 +35474,19 @@ Uy
 Uy
 Uy
 Xw
-Eu
-Eu
-Yq
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
+ot
+ot
+ot
+lr
+lr
+lr
+fg
+fg
+fg
+fg
+fg
+fg
+fg
 Tp
 Tp
 sP
@@ -35578,7 +35596,7 @@ Uy
 Uy
 Xw
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -35700,7 +35718,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -35822,7 +35840,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -35944,7 +35962,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -36066,7 +36084,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -36188,7 +36206,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -36310,7 +36328,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -36432,7 +36450,7 @@ Uy
 Uy
 LU
 tD
-Eu
+ot
 lr
 lr
 lr
@@ -36554,9 +36572,9 @@ Uy
 Uy
 LU
 tD
-Eu
-Eu
-Eu
+ot
+ot
+ot
 lr
 lr
 lr
@@ -36678,10 +36696,10 @@ Uy
 Vr
 IL
 tD
-Eu
-Eu
-Eu
-Eu
+ot
+ot
+ot
+ot
 fg
 fg
 fg
