@@ -200,12 +200,6 @@
 /obj/structure/machinery/cm_vending/clothing/medic/alpha,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
-"aS" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer6"
-	},
-/area/space)
 "aV" = (
 /turf/open/floor/almayer{
 	icon_state = "orange"
@@ -4100,12 +4094,6 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/almayer/living/officer_rnr)
-"pi" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer7"
-	},
-/area/space)
 "pj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -5125,12 +5113,6 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/processing)
-"sL" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer2"
-	},
-/area/space)
 "sM" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -5907,12 +5889,6 @@
 	icon_state = "bluefull"
 	},
 /area/almayer/living/pilotbunks)
-"vA" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer1"
-	},
-/area/space)
 "vC" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -6899,12 +6875,6 @@
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer,
 /area/sulaco/squads/delta)
-"zy" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer4"
-	},
-/area/space)
 "zA" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/computer/secure_data{
@@ -7380,6 +7350,12 @@
 /obj/structure/machinery/cm_vending/clothing/smartgun/alpha,
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
+"BD" = (
+/obj/structure/prop/almayer/name_stencil,
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "BE" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment,
@@ -9692,6 +9668,14 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/squads/charlie)
+"Kp" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon_state = "almayer1"
+	},
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "Kq" = (
 /obj/structure/machinery/vending/hydroseeds{
 	req_access_txt = "28"
@@ -10719,12 +10703,6 @@
 	icon_state = "sterile_green"
 	},
 /area/almayer/medical/lower_medical_lobby)
-"Oe" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer5"
-	},
-/area/space)
 "Og" = (
 /turf/closed/wall/almayer/outer,
 /area/shuttle/sulaco/elevator_cen1/upperdeck)
@@ -12054,12 +12032,6 @@
 /obj/structure/stairs,
 /turf/open/floor/almayer,
 /area/sulaco/command/cic)
-"Tb" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "Almayer3"
-	},
-/area/space)
 "Te" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -18939,7 +18911,7 @@ hA
 PM
 HR
 tD
-oJ
+BD
 aa
 aa
 aa
@@ -19183,7 +19155,7 @@ sc
 Mx
 hO
 tD
-oJ
+Kp
 aa
 aa
 aa
@@ -23320,7 +23292,7 @@ Vo
 Hr
 ZZ
 jX
-vA
+oJ
 Uy
 Uy
 Uy
@@ -23442,7 +23414,7 @@ Py
 RY
 ZZ
 Mj
-sL
+oJ
 Uy
 Uy
 Uy
@@ -23564,7 +23536,7 @@ hj
 RY
 ZZ
 Mj
-Tb
+oJ
 Uy
 Uy
 Uy
@@ -23686,7 +23658,7 @@ Py
 hj
 ZZ
 Mj
-zy
+oJ
 Uy
 Uy
 Uy
@@ -23808,7 +23780,7 @@ Py
 hj
 ZZ
 Mj
-Oe
+oJ
 aa
 aa
 aa
@@ -23930,7 +23902,7 @@ Er
 hj
 ZZ
 Mj
-aS
+oJ
 aa
 aa
 aa
@@ -24052,7 +24024,7 @@ Py
 RY
 ZZ
 Mj
-pi
+oJ
 aa
 aa
 aa
