@@ -1977,6 +1977,16 @@
 "hA" = (
 /turf/closed/wall/almayer/reinforced,
 /area/sulaco/command/corporateliason)
+"hB" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco4";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "hC" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -3625,6 +3635,16 @@
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
 /area/sulaco/squads/delta)
+"nr" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco4";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/hallways/hangar)
 "ns" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -3641,6 +3661,16 @@
 	icon_state = "silvercorner"
 	},
 /area/sulaco/command/cic)
+"nw" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco2";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/hallways/hangar)
 "nx" = (
 /turf/open/floor/almayer,
 /area/sulaco/command/computerlab)
@@ -4610,6 +4640,16 @@
 	icon_state = "plating_striped"
 	},
 /area/almayer/shipboard/brig/armory)
+"qX" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco2";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "qY" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/almayer{
@@ -7351,7 +7391,11 @@
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
 "BD" = (
-/obj/structure/prop/almayer/name_stencil,
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco0";
+	name = "USS Sulaco"
+	},
 /turf/open/floor/almayer_hull{
 	icon_state = "outerhull_dir"
 	},
@@ -8633,6 +8677,16 @@
 	icon_state = "blue"
 	},
 /area/sulaco/squads/delta)
+"Gg" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco3";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/hallways/hangar)
 "Gh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -9670,7 +9724,9 @@
 /area/sulaco/squads/charlie)
 "Kp" = (
 /obj/structure/prop/almayer/name_stencil{
-	icon_state = "almayer1"
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco1";
+	name = "USS Sulaco"
 	},
 /turf/open/floor/almayer_hull{
 	icon_state = "outerhull_dir"
@@ -9699,6 +9755,16 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/medical/lower_medical_lobby)
+"Ku" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco5";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "Kv" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
@@ -10444,6 +10510,16 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
+"Nc" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco3";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer_hull{
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "Nd" = (
 /obj/structure/machinery/power/apc/almayer/hardened{
 	dir = 8
@@ -11962,6 +12038,16 @@
 	},
 /turf/open/floor/almayer,
 /area/sulaco/squads/bravo)
+"SM" = (
+/obj/structure/prop/almayer/name_stencil{
+	icon = 'icons/obj/structures/props/sulaco_props64.dmi';
+	icon_state = "sulaco5";
+	name = "USS Sulaco"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/hallways/hangar)
 "SN" = (
 /obj/structure/dropship_equipment/fulton_system,
 /turf/open/floor/almayer{
@@ -19399,7 +19485,7 @@ hA
 MQ
 HR
 tD
-oJ
+qX
 aa
 aa
 aa
@@ -19643,7 +19729,7 @@ Zc
 GD
 Ih
 tD
-oJ
+Nc
 aa
 aa
 aa
@@ -19887,7 +19973,7 @@ uw
 zr
 Ih
 tD
-oJ
+hB
 aa
 aa
 aa
@@ -20131,7 +20217,7 @@ kl
 ZX
 dh
 tD
-oJ
+Ku
 aa
 aa
 aa
@@ -32260,7 +32346,7 @@ ir
 ir
 km
 NF
-OM
+nw
 yn
 Te
 Te
@@ -32504,7 +32590,7 @@ ir
 ir
 gi
 NF
-OM
+Gg
 yT
 gX
 Ll
@@ -32748,7 +32834,7 @@ OM
 OM
 OM
 NF
-OM
+nr
 OM
 OM
 OM
@@ -32992,7 +33078,7 @@ ir
 ir
 Ws
 NF
-OM
+SM
 AD
 gX
 gX
