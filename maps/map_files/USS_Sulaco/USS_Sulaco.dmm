@@ -1497,12 +1497,6 @@
 /obj/docking_port/stationary/escape_pod/east,
 /turf/open/floor/almayer,
 /area/sulaco/hull/upper_hull/u_a_p)
-"eR" = (
-/obj/structure/machinery/door/airlock/almayer/marine/charlie/rto,
-/turf/open/floor/almayer{
-	icon_state = "emeraldfull"
-	},
-/area/sulaco/squads/charlie)
 "eS" = (
 /obj/structure/machinery/door/airlock/almayer/research/glass/reinforced{
 	name = "\improper Hydroponics Laboratory";
@@ -2186,7 +2180,6 @@
 	pixel_x = -1
 	},
 /obj/effect/landmark/late_join/delta,
-/obj/effect/landmark/start/marine/rto/delta,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/delta)
 "hq" = (
@@ -2688,7 +2681,6 @@
 	dir = 1
 	},
 /obj/effect/landmark/late_join/charlie,
-/obj/effect/landmark/start/marine/rto/charlie,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/charlie)
 "iU" = (
@@ -3245,12 +3237,6 @@
 "kJ" = (
 /turf/closed/wall/almayer/outer,
 /area/sulaco/command/airoom)
-"kL" = (
-/obj/structure/machinery/door/airlock/almayer/marine/delta/rto,
-/turf/open/floor/almayer{
-	icon_state = "bluefull"
-	},
-/area/sulaco/squads/delta)
 "kM" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -3327,7 +3313,6 @@
 	icon_state = "E";
 	dir = 1
 	},
-/obj/effect/landmark/start/marine/rto/alpha,
 /obj/effect/landmark/late_join/alpha,
 /obj/effect/landmark/ert_spawns/distress_cryo,
 /turf/open/floor/plating/plating_catwalk,
@@ -4661,12 +4646,6 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/command/computerlab)
-"pp" = (
-/obj/structure/machinery/door/airlock/almayer/marine/bravo/rto,
-/turf/open/floor/almayer{
-	icon_state = "orangefull"
-	},
-/area/sulaco/squads/bravo)
 "pq" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/door_control{
@@ -4956,10 +4935,6 @@
 	icon_state = "blue"
 	},
 /area/sulaco/command/cic)
-"qc" = (
-/obj/structure/machinery/cm_vending/clothing/rto/alpha,
-/turf/open/floor/almayer,
-/area/sulaco/squads/bravo)
 "qd" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -5634,10 +5609,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/hangar)
-"si" = (
-/obj/structure/machinery/cm_vending/gear/rto,
-/turf/open/floor/almayer,
-/area/sulaco/squads/delta)
 "sj" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/shipboard/brig/cells)
@@ -6260,10 +6231,6 @@
 	icon_state = "cargo"
 	},
 /area/sulaco/squads/delta)
-"uo" = (
-/obj/structure/machinery/cm_vending/gear/rto,
-/turf/open/floor/almayer,
-/area/sulaco/squads/charlie)
 "up" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -7346,10 +7313,6 @@
 	icon_state = "orange"
 	},
 /area/sulaco/squads/bravo)
-"xK" = (
-/obj/structure/machinery/cm_vending/gear/rto,
-/turf/open/floor/almayer,
-/area/sulaco/squads/bravo)
 "xM" = (
 /obj/structure/supply_drop/charlie,
 /turf/open/floor/almayer,
@@ -8166,10 +8129,6 @@
 	icon_state = "green"
 	},
 /area/sulaco/squads/req)
-"As" = (
-/obj/structure/machinery/cm_vending/clothing/rto/alpha,
-/turf/open/floor/almayer,
-/area/sulaco/squads/alpha)
 "At" = (
 /obj/structure/barricade/handrail,
 /obj/structure/machinery/light{
@@ -9114,10 +9073,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/medical/medical_science)
-"DL" = (
-/obj/structure/machinery/cm_vending/gear/rto,
-/turf/open/floor/almayer,
-/area/sulaco/squads/alpha)
 "DN" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -10052,7 +10007,6 @@
 	icon_state = "W";
 	pixel_x = -1
 	},
-/obj/effect/landmark/start/marine/rto/bravo,
 /obj/effect/landmark/late_join/bravo,
 /turf/open/floor/plating/plating_catwalk,
 /area/sulaco/squads/bravo)
@@ -11345,10 +11299,6 @@
 	icon_state = "red"
 	},
 /area/almayer/shipboard/brig/cells)
-"Lj" = (
-/obj/structure/machinery/cm_vending/clothing/rto/alpha,
-/turf/open/floor/almayer,
-/area/sulaco/squads/charlie)
 "Lk" = (
 /obj/structure/sign/safety/hazard{
 	pixel_x = -17;
@@ -15690,10 +15640,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/almayer/medical/medical_science)
-"ZI" = (
-/obj/structure/machinery/cm_vending/clothing/rto/alpha,
-/turf/open/floor/almayer,
-/area/sulaco/squads/delta)
 "ZJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -15747,12 +15693,6 @@
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
 /area/sulaco/living/cryo_cells)
-"ZT" = (
-/obj/structure/machinery/door/airlock/almayer/marine/alpha/rto,
-/turf/open/floor/almayer{
-	icon_state = "redfull"
-	},
-/area/sulaco/squads/alpha)
 "ZU" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -27152,8 +27092,8 @@ Uy
 Xw
 tD
 Mr
-DL
-As
+TC
+TC
 Wg
 tR
 QQ
@@ -27193,8 +27133,8 @@ hf
 hf
 Jr
 kO
-Lj
-uo
+VW
+VW
 oc
 tD
 aa
@@ -27276,7 +27216,7 @@ tD
 Mr
 wO
 oP
-ZT
+Sp
 oP
 Ib
 MB
@@ -27314,7 +27254,7 @@ Yt
 TN
 rj
 QZ
-eR
+ql
 QZ
 py
 oc
@@ -31546,7 +31486,7 @@ tD
 Nt
 Bs
 Cf
-pp
+Sm
 Cf
 ez
 bK
@@ -31584,7 +31524,7 @@ QK
 bW
 wH
 CU
-kL
+sJ
 CU
 IY
 nq
@@ -31666,8 +31606,8 @@ Uy
 LU
 tD
 Nt
-xK
-qc
+jK
+jK
 OW
 GK
 Bt
@@ -31707,8 +31647,8 @@ TA
 TA
 so
 My
-ZI
-si
+Nn
+Nn
 nq
 tD
 Uy
